@@ -1,0 +1,47 @@
+{
+  "model": "spacy",
+  "path": "models/spacy",
+  "sha256": "6add87ee75e26912eb3d439bf4783ebd71d98be474507b3f0b86e60fa9886b73",
+  "recorded_on": "2026-11-10",
+  "micro_f1": 0.9854,
+  "micro_recall": 0.985,
+  "per_label_f1": {
+    "adresse": 1.0,
+    "dateDeNaissance": 1.0,
+    "localite": 0.8889,
+    "numeroIdentifiant": 1.0,
+    "personneMorale": 1.0,
+    "personnePhysiqueNom": 1.0,
+    "personnePhysiquePrenom": 1.0,
+    "professionnelAvocat": 1.0,
+    "professionnelMagistratGreffier": 0.9979
+  },
+  "min_f1": 0.9654,
+  "raw_micro_f1": 0.984955185659411,
+  "leaks": 0,
+  "version": "spacy-2026-11-10-6add87ee",
+  "promoted_on": "2026-11-10",
+  "previous": {
+    "model": "spacy",
+    "path": "models/spacy",
+    "sha256": "6add87ee75e26912eb3d439bf4783ebd71d98be474507b3f0b86e60fa9886b73",
+    "recorded_on": "2026-11-10",
+    "micro_f1": 0.9854,
+    "micro_recall": 0.985,
+    "per_label_f1": {
+      "adresse": 1.0,
+      "dateDeNaissance": 1.0,
+      "localite": 0.8889,
+      "numeroIdentifiant": 1.0,
+      "personneMorale": 1.0,
+      "personnePhysiqueNom": 1.0,
+      "personnePhysiquePrenom": 1.0,
+      "professionnelAvocat": 1.0,
+      "professionnelMagistratGreffier": 0.9979
+    },
+    "min_f1": 0.9654,
+    "raw_micro_f1": 0.984955185659411,
+    "leaks": 0,
+    "promoted_on": "2026-11-10"
+  }
+}

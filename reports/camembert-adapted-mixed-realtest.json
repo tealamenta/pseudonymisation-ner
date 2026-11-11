@@ -1,0 +1,4179 @@
+{
+  "model": "camembert",
+  "split": "data/mixed/test.jsonl",
+  "labels": "reinjected",
+  "documents": 100,
+  "seconds_per_doc": 2.841,
+  "raw": {
+    "micro": {
+      "tp": 4779,
+      "fp": 198,
+      "fn": 247,
+      "precision": 0.9602,
+      "recall": 0.9509,
+      "f1": 0.9555
+    },
+    "micro_f1_ci95": [
+      0.9405,
+      0.9693
+    ],
+    "documents": 100,
+    "per_label": {
+      "adresse": {
+        "tp": 307,
+        "fp": 19,
+        "fn": 13,
+        "precision": 0.9417,
+        "recall": 0.9594,
+        "f1": 0.9505
+      },
+      "dateDeNaissance": {
+        "tp": 8,
+        "fp": 18,
+        "fn": 6,
+        "precision": 0.3077,
+        "recall": 0.5714,
+        "f1": 0.4
+      },
+      "localite": {
+        "tp": 511,
+        "fp": 25,
+        "fn": 16,
+        "precision": 0.9534,
+        "recall": 0.9696,
+        "f1": 0.9614
+      },
+      "personnePhysiqueNom": {
+        "tp": 2662,
+        "fp": 84,
+        "fn": 164,
+        "precision": 0.9694,
+        "recall": 0.942,
+        "f1": 0.9555
+      },
+      "personnePhysiquePrenom": {
+        "tp": 1291,
+        "fp": 52,
+        "fn": 48,
+        "precision": 0.9613,
+        "recall": 0.9642,
+        "f1": 0.9627
+      }
+    },
+    "missed": [
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "adresse",
+        "text": "144 rue Anatole-France"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "5 septembre 1985"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Mélissa"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Mélissa"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Mélissa"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Maubeuge"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "localite",
+        "text": "Rochefort"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiquePrenom",
+        "text": "Élise"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "personnePhysiquePrenom",
+        "text": "Françoise"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiqueNom",
+        "text": "HUBERT"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiquePrenom",
+        "text": "Wendy"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiqueNom",
+        "text": "HUBERT"
+      },
+      {
+        "doc": "653760fe974d258318455137",
+        "label": "localite",
+        "text": "Mont-de-Marsan"
+      },
+      {
+        "doc": "63903f510f8a5205d45d827c",
+        "label": "adresse",
+        "text": "99 rue Anatole-France"
+      },
+      {
+        "doc": "63903f510f8a5205d45d827c",
+        "label": "adresse",
+        "text": "99 rue Anatole-France"
+      },
+      {
+        "doc": "63903f510f8a5205d45d827c",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiqueNom",
+        "text": "SALAÜN"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiquePrenom",
+        "text": "Murat"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiquePrenom",
+        "text": "Murat"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiquePrenom",
+        "text": "Murat"
+      },
+      {
+        "doc": "63918e6e6d1e4f05d4f68048",
+        "label": "personnePhysiqueNom",
+        "text": "Clément"
+      },
+      {
+        "doc": "66dbecaf33cdcc763a3b9b67",
+        "label": "personnePhysiquePrenom",
+        "text": "Cyril"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiqueNom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiqueNom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiqueNom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiqueNom",
+        "text": "Julien"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "WOLFF"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Morin"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78bf",
+        "label": "personnePhysiqueNom",
+        "text": "Cherif"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78bf",
+        "label": "personnePhysiqueNom",
+        "text": "Cherif"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78bf",
+        "label": "personnePhysiqueNom",
+        "text": "Cherif"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78bf",
+        "label": "personnePhysiqueNom",
+        "text": "Cherif"
+      },
+      {
+        "doc": "64631e1b2622c0d0f8d67bb7",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "64631e1b2622c0d0f8d67bb7",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "64631e1b2622c0d0f8d67bb7",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY-"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Clément"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790b",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790b",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "66dbeca933cdcc763a3b9b1f",
+        "label": "localite",
+        "text": "Redon"
+      },
+      {
+        "doc": "66dbec8f33cdcc763a3b9a0b",
+        "label": "personnePhysiqueNom",
+        "text": "Kaci"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "personnePhysiquePrenom",
+        "text": "Solène"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "personnePhysiquePrenom",
+        "text": "Solène"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "personnePhysiqueNom",
+        "text": "GUYARD"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": "65375f5a974d258318454fed",
+        "label": "personnePhysiqueNom",
+        "text": "Gilbert"
+      },
+      {
+        "doc": "64631e712622c0d0f8d67d60",
+        "label": "personnePhysiqueNom",
+        "text": "Marchand"
+      },
+      {
+        "doc": "64631e712622c0d0f8d67d60",
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc3",
+        "label": "localite",
+        "text": "Narbonne"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc3",
+        "label": "dateDeNaissance",
+        "text": "10 février 1950"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc3",
+        "label": "localite",
+        "text": "Le Creusot"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e59",
+        "label": "adresse",
+        "text": "91 rue Anatole-France"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc5",
+        "label": "personnePhysiqueNom",
+        "text": "JULIEN"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc5",
+        "label": "personnePhysiqueNom",
+        "text": "LUCAS"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc5",
+        "label": "personnePhysiquePrenom",
+        "text": "Ilyes"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc5",
+        "label": "localite",
+        "text": "Thionville"
+      },
+      {
+        "doc": "66dbec9e33cdcc763a3b9ad5",
+        "label": "adresse",
+        "text": "147 rue Anatole-France"
+      },
+      {
+        "doc": "66dbec9e33cdcc763a3b9ad5",
+        "label": "adresse",
+        "text": "147 rue Anatole-France"
+      },
+      {
+        "doc": "66dbec9e33cdcc763a3b9ad5",
+        "label": "adresse",
+        "text": "147 rue Anatole-France"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BOUAZIZ"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "localite",
+        "text": "Grasse"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiquePrenom",
+        "text": "Yoann"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiquePrenom",
+        "text": "Delphine"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BOUAZIZ"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "VIAL"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "6881beb753f7f060d28c78ad",
+        "label": "localite",
+        "text": "Grasse"
+      },
+      {
+        "doc": "65375f62974d258318455021",
+        "label": "adresse",
+        "text": "3 rue du 11-Novembre"
+      },
+      {
+        "doc": "67aee144617361a2d7947cb7",
+        "label": "localite",
+        "text": "Narbonne"
+      },
+      {
+        "doc": "67aee144617361a2d7947cb7",
+        "label": "localite",
+        "text": "Narbonne"
+      },
+      {
+        "doc": "67aee144617361a2d7947cb7",
+        "label": "localite",
+        "text": "Narbonne"
+      },
+      {
+        "doc": "67aee144617361a2d7947cb7",
+        "label": "personnePhysiqueNom",
+        "text": "MATHIEU"
+      },
+      {
+        "doc": "6537610b974d258318455193",
+        "label": "localite",
+        "text": "Calais"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "localite",
+        "text": "Neuilly-sur-Seine"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "personnePhysiquePrenom",
+        "text": "Zineb"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "personnePhysiquePrenom",
+        "text": "Zineb"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "dateDeNaissance",
+        "text": "24 mars 1944"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "adresse",
+        "text": "7 rue de Verdun"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "dateDeNaissance",
+        "text": "24 mars 1944"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "personnePhysiqueNom",
+        "text": "MORIN"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "personnePhysiquePrenom",
+        "text": "Zineb"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "personnePhysiqueNom",
+        "text": "HUBERT"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "localite",
+        "text": "La Seyne-sur-Mer"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiqueNom",
+        "text": "GAUTIER"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiqueNom",
+        "text": "CLÉMENT"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiquePrenom",
+        "text": "Assia"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiquePrenom",
+        "text": "Oscar"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiqueNom",
+        "text": "GAUTIER"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiqueNom",
+        "text": "CLÉMENT"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiquePrenom",
+        "text": "Priscilla"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiquePrenom",
+        "text": "Priscilla"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf3",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf3",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf3",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf3",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf3",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf3",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf3",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf3",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf3",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf3",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      }
+    ],
+    "spurious": [
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "personnePhysiqueNom",
+        "text": "BLUCHE"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "adresse",
+        "text": "144 rue Anatole"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "personnePhysiquePrenom",
+        "text": "Olivier"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist(LRAR"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Marie-Daphné"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "Perrin"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "personnePhysiqueNom",
+        "text": "DEVIN"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "personnePhysiqueNom",
+        "text": "DEVIN"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiqueNom",
+        "text": "HUBERTà"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiqueNom",
+        "text": "GUINARD"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiquePrenom",
+        "text": "WendyHUBERT"
+      },
+      {
+        "doc": "653760fe974d258318455137",
+        "label": "personnePhysiquePrenom",
+        "text": "Soliha"
+      },
+      {
+        "doc": "653760fe974d258318455137",
+        "label": "localite",
+        "text": "Mont-de-Marsan --"
+      },
+      {
+        "doc": "63903f510f8a5205d45d827c",
+        "label": "adresse",
+        "text": "99 rue Anatole-"
+      },
+      {
+        "doc": "63903f510f8a5205d45d827c",
+        "label": "adresse",
+        "text": "99 rue Anatole-"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiqueNom",
+        "text": "Murat"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiqueNom",
+        "text": "Murat"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiqueNom",
+        "text": "Murat"
+      },
+      {
+        "doc": "63918e6e6d1e4f05d4f68048",
+        "label": "personnePhysiquePrenom",
+        "text": "Clément"
+      },
+      {
+        "doc": "66dbeca233cdcc763a3b9afb",
+        "label": "personnePhysiqueNom",
+        "text": "Sellier"
+      },
+      {
+        "doc": "66dbecaf33cdcc763a3b9b67",
+        "label": "personnePhysiquePrenom",
+        "text": "M.Cyril"
+      },
+      {
+        "doc": "6881bec253f7f060d28c7955",
+        "label": "personnePhysiqueNom",
+        "text": "EPOUSE"
+      },
+      {
+        "doc": "64631e692622c0d0f8d67d0a",
+        "label": "adresse",
+        "text": "5 quai de l'Horloge"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790f",
+        "label": "dateDeNaissance",
+        "text": "décembre"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790f",
+        "label": "personnePhysiqueNom",
+        "text": "Lesne"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790f",
+        "label": "personnePhysiquePrenom",
+        "text": "Christine"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiquePrenom",
+        "text": "déborah"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiquePrenom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiquePrenom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiquePrenom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiqueNom",
+        "text": "PONSEELE"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiquePrenom",
+        "text": "Julien"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Levetti"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Favre"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "ALLARD"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "localite",
+        "text": "Les Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "localite",
+        "text": "Les Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiquePrenom",
+        "text": "Raphael"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Allard"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "6881bec153f7f060d28c793f",
+        "label": "personnePhysiquePrenom",
+        "text": "Adil"
+      },
+      {
+        "doc": "639976b4b7ec7f05d42d7cbb",
+        "label": "localite",
+        "text": "Besançon"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78bf",
+        "label": "personnePhysiqueNom",
+        "text": "Dubois"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78bf",
+        "label": "personnePhysiqueNom",
+        "text": "Rahon"
+      },
+      {
+        "doc": "64631e1b2622c0d0f8d67bb7",
+        "label": "adresse",
+        "text": "Pégalous"
+      },
+      {
+        "doc": "64631e1b2622c0d0f8d67bb7",
+        "label": "localite",
+        "text": "Temple"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY-Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "Wolff"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "Pineau"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "Barret"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "BERNIER"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "Bernier"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "Bernier"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "64631e662622c0d0f8d67d00",
+        "label": "dateDeNaissance",
+        "text": "8 juillet 1954"
+      },
+      {
+        "doc": "64631e662622c0d0f8d67d00",
+        "label": "dateDeNaissance",
+        "text": "16"
+      },
+      {
+        "doc": "64631e662622c0d0f8d67d00",
+        "label": "dateDeNaissance",
+        "text": "1952"
+      },
+      {
+        "doc": "64631e662622c0d0f8d67d00",
+        "label": "dateDeNaissance",
+        "text": "11 Août 1953"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "CAEN"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf5",
+        "label": "personnePhysiqueNom",
+        "text": "LAFABREGUE"
+      },
+      {
+        "doc": "65336b6fbb40ec8318f31e4d",
+        "label": "localite",
+        "text": "Rouen"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790b",
+        "label": "personnePhysiquePrenom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790b",
+        "label": "dateDeNaissance",
+        "text": "juin"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790b",
+        "label": "personnePhysiquePrenom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "660b9fbcf83f5d0008a2f04e",
+        "label": "personnePhysiqueNom",
+        "text": "Garcia"
+      },
+      {
+        "doc": "66dbeca933cdcc763a3b9b1f",
+        "label": "personnePhysiqueNom",
+        "text": "Redon"
+      },
+      {
+        "doc": "66dbec8f33cdcc763a3b9a0b",
+        "label": "personnePhysiquePrenom",
+        "text": "Céline"
+      },
+      {
+        "doc": "66dbec8f33cdcc763a3b9a0b",
+        "label": "personnePhysiquePrenom",
+        "text": "Kaci"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "localite",
+        "text": "Plérin"
+      },
+      {
+        "doc": "63918d036d1e4f05d4f67b3d",
+        "label": "localite",
+        "text": "Nice"
+      },
+      {
+        "doc": "65375f5a974d258318454fed",
+        "label": "localite",
+        "text": "Portel"
+      },
+      {
+        "doc": "65376125974d2583184551f5",
+        "label": "localite",
+        "text": "Mesnil"
+      },
+      {
+        "doc": "64631e712622c0d0f8d67d60",
+        "label": "personnePhysiqueNom",
+        "text": "Van Marchand"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc3",
+        "label": "dateDeNaissance",
+        "text": "10 février"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc3",
+        "label": "localite",
+        "text": "Le"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc3",
+        "label": "personnePhysiqueNom",
+        "text": "Thizy"
+      },
+      {
+        "doc": "695bc60e75782d5f06dc1dec",
+        "label": "personnePhysiqueNom",
+        "text": "Fichot"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e59",
+        "label": "adresse",
+        "text": "91 rue Anatole-"
+      },
+      {
+        "doc": "66dbec9e33cdcc763a3b9ad5",
+        "label": "adresse",
+        "text": "147 rue Anatole"
+      },
+      {
+        "doc": "66dbec9e33cdcc763a3b9ad5",
+        "label": "adresse",
+        "text": "147 rue Anatole"
+      },
+      {
+        "doc": "66dbec9e33cdcc763a3b9ad5",
+        "label": "adresse",
+        "text": "147 rue Anatole"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "M.BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "M.BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "M.BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "M.BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "adresse",
+        "text": "lieudit"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "localite",
+        "text": "Grasse-sur -Gironde"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "M.BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "GAAG"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "dateDeNaissance",
+        "text": "20"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "M.BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "M.BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "localite",
+        "text": "Saint Bonnet"
+      },
+      {
+        "doc": "69560ecd75782d5f066d4f9c",
+        "label": "localite",
+        "text": "MOULINEAUX"
+      },
+      {
+        "doc": "63918d036d1e4f05d4f67b3f",
+        "label": "localite",
+        "text": "Nice"
+      },
+      {
+        "doc": "65375f62974d258318455021",
+        "label": "adresse",
+        "text": "3 rue du"
+      },
+      {
+        "doc": "67aee144617361a2d7947cb7",
+        "label": "personnePhysiquePrenom",
+        "text": "Nathalie"
+      },
+      {
+        "doc": "67aee144617361a2d7947cb7",
+        "label": "personnePhysiqueNom",
+        "text": "Renard"
+      },
+      {
+        "doc": "65376124974d2583184551d6",
+        "label": "dateDeNaissance",
+        "text": "juin"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "adresse",
+        "text": "rue de Verdun"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "localite",
+        "text": "Tours"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "adresse",
+        "text": "lieudit"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "dateDeNaissance",
+        "text": "mars 1944"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "localite",
+        "text": "Chatelet"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "dateDeNaissance",
+        "text": "mars 1944"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "localite",
+        "text": "Neuilly-sur-Seine7"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "personnePhysiqueNom",
+        "text": "Zineb"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "localite",
+        "text": "Tours"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "personnePhysiqueNom",
+        "text": "Zineb"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "personnePhysiqueNom",
+        "text": "Zineb"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "personnePhysiqueNom",
+        "text": "Van HUBERT"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "localite",
+        "text": "Seyne-sur-Mer"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "personnePhysiqueNom",
+        "text": "Van"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "personnePhysiqueNom",
+        "text": "Van"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "localite",
+        "text": "La"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiquePrenom",
+        "text": "Anne"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiqueNom",
+        "text": "DELACOUR"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiqueNom",
+        "text": "BARBEDETTE"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d32",
+        "label": "personnePhysiquePrenom",
+        "text": "Anne"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d32",
+        "label": "dateDeNaissance",
+        "text": "novembre"
+      },
+      {
+        "doc": "63903f470f8a5205d45d824b",
+        "label": "personnePhysiquePrenom",
+        "text": "Roger"
+      },
+      {
+        "doc": "660e43080740db0008fa92c3",
+        "label": "personnePhysiquePrenom",
+        "text": "Lucas"
+      },
+      {
+        "doc": "660e43080740db0008fa92c3",
+        "label": "dateDeNaissance",
+        "text": "27"
+      },
+      {
+        "doc": "67aee155617361a2d7947d91",
+        "label": "dateDeNaissance",
+        "text": "19"
+      },
+      {
+        "doc": "67aee155617361a2d7947d91",
+        "label": "adresse",
+        "text": "40 rue Anatole-"
+      },
+      {
+        "doc": "67aee155617361a2d7947d91",
+        "label": "adresse",
+        "text": "40 rue Anatole-"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiquePrenom",
+        "text": "Hubert"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiqueNom",
+        "text": "Augustin"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiquePrenom",
+        "text": "Hubert"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiqueNom",
+        "text": "Augustin"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiquePrenom",
+        "text": "Hubert"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiqueNom",
+        "text": "Augustin"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiqueNom",
+        "text": "Augustin"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiquePrenom",
+        "text": "Hubert"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiqueNom",
+        "text": "Augustin"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiquePrenom",
+        "text": "Hubert"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78b9",
+        "label": "adresse",
+        "text": "488"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78b9",
+        "label": "personnePhysiquePrenom",
+        "text": "Hugo"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78b9",
+        "label": "personnePhysiqueNom",
+        "text": "Molsheim"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78b9",
+        "label": "adresse",
+        "text": "150 avenue Victor"
+      },
+      {
+        "doc": "65b9f2c88452800008b2b474",
+        "label": "localite",
+        "text": "Fonte"
+      },
+      {
+        "doc": "65b9f2c88452800008b2b474",
+        "label": "personnePhysiquePrenom",
+        "text": "Pascal"
+      },
+      {
+        "doc": "65b9f2c88452800008b2b474",
+        "label": "personnePhysiqueNom",
+        "text": "HAMON"
+      },
+      {
+        "doc": "688311314d9076bf079c2325",
+        "label": "adresse",
+        "text": "Lambert"
+      },
+      {
+        "doc": "6881beb253f7f060d28c7873",
+        "label": "dateDeNaissance",
+        "text": "janvier"
+      },
+      {
+        "doc": "6881beb253f7f060d28c7873",
+        "label": "dateDeNaissance",
+        "text": "20 janvier 1973"
+      },
+      {
+        "doc": "6881beb253f7f060d28c7873",
+        "label": "localite",
+        "text": "Beyrouth"
+      },
+      {
+        "doc": "6881beb253f7f060d28c7873",
+        "label": "localite",
+        "text": "Champs"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiqueNom",
+        "text": "M.SCHMITT"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiqueNom",
+        "text": "HÉBERT-PAGEOT"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiqueNom",
+        "text": "M.SCHMITT"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiquePrenom",
+        "text": "Marie-Christine"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiqueNom",
+        "text": "M.Delpech"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiqueNom",
+        "text": "M.Perez"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "dateDeNaissance",
+        "text": "11"
+      },
+      {
+        "doc": "660b9fbaf83f5d0008a2f012",
+        "label": "dateDeNaissance",
+        "text": "20 septembre"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d2e",
+        "label": "personnePhysiqueNom",
+        "text": "Herbaut"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d2e",
+        "label": "personnePhysiqueNom",
+        "text": "Herbaut"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d2e",
+        "label": "personnePhysiqueNom",
+        "text": "Herbaut"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d2e",
+        "label": "adresse",
+        "text": "172 rue Anatole"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d2e",
+        "label": "personnePhysiquePrenom",
+        "text": "Alexandre"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d2e",
+        "label": "personnePhysiqueNom",
+        "text": "Herbaut"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d2e",
+        "label": "personnePhysiquePrenom",
+        "text": "Alexandre"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d2e",
+        "label": "personnePhysiqueNom",
+        "text": "Herbaut"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d2e",
+        "label": "personnePhysiquePrenom",
+        "text": "Alexandre"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d2e",
+        "label": "personnePhysiqueNom",
+        "text": "Herbaut"
+      }
+    ]
+  },
+  "postprocessed": {
+    "micro": {
+      "tp": 4865,
+      "fp": 299,
+      "fn": 161,
+      "precision": 0.9421,
+      "recall": 0.968,
+      "f1": 0.9549
+    },
+    "micro_f1_ci95": [
+      0.9304,
+      0.9727
+    ],
+    "documents": 100,
+    "per_label": {
+      "adresse": {
+        "tp": 307,
+        "fp": 19,
+        "fn": 13,
+        "precision": 0.9417,
+        "recall": 0.9594,
+        "f1": 0.9505
+      },
+      "dateDeNaissance": {
+        "tp": 8,
+        "fp": 18,
+        "fn": 6,
+        "precision": 0.3077,
+        "recall": 0.5714,
+        "f1": 0.4
+      },
+      "localite": {
+        "tp": 511,
+        "fp": 25,
+        "fn": 16,
+        "precision": 0.9534,
+        "recall": 0.9696,
+        "f1": 0.9614
+      },
+      "personnePhysiqueNom": {
+        "tp": 2742,
+        "fp": 185,
+        "fn": 84,
+        "precision": 0.9368,
+        "recall": 0.9703,
+        "f1": 0.9532
+      },
+      "personnePhysiquePrenom": {
+        "tp": 1297,
+        "fp": 52,
+        "fn": 42,
+        "precision": 0.9615,
+        "recall": 0.9686,
+        "f1": 0.965
+      }
+    },
+    "missed": [
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "adresse",
+        "text": "144 rue Anatole-France"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "5 septembre 1985"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Maubeuge"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "localite",
+        "text": "Rochefort"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiquePrenom",
+        "text": "Élise"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "personnePhysiquePrenom",
+        "text": "Françoise"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiqueNom",
+        "text": "HUBERT"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiquePrenom",
+        "text": "Wendy"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiqueNom",
+        "text": "HUBERT"
+      },
+      {
+        "doc": "653760fe974d258318455137",
+        "label": "localite",
+        "text": "Mont-de-Marsan"
+      },
+      {
+        "doc": "63903f510f8a5205d45d827c",
+        "label": "adresse",
+        "text": "99 rue Anatole-France"
+      },
+      {
+        "doc": "63903f510f8a5205d45d827c",
+        "label": "adresse",
+        "text": "99 rue Anatole-France"
+      },
+      {
+        "doc": "63903f510f8a5205d45d827c",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiquePrenom",
+        "text": "Murat"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiquePrenom",
+        "text": "Murat"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiquePrenom",
+        "text": "Murat"
+      },
+      {
+        "doc": "63918e6e6d1e4f05d4f68048",
+        "label": "personnePhysiqueNom",
+        "text": "Clément"
+      },
+      {
+        "doc": "66dbecaf33cdcc763a3b9b67",
+        "label": "personnePhysiquePrenom",
+        "text": "Cyril"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiqueNom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiqueNom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiqueNom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiqueNom",
+        "text": "Julien"
+      },
+      {
+        "doc": "64631e1b2622c0d0f8d67bb7",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "64631e1b2622c0d0f8d67bb7",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "64631e1b2622c0d0f8d67bb7",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY-"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Clément"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790b",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790b",
+        "label": "personnePhysiqueNom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "66dbeca933cdcc763a3b9b1f",
+        "label": "localite",
+        "text": "Redon"
+      },
+      {
+        "doc": "66dbec8f33cdcc763a3b9a0b",
+        "label": "personnePhysiqueNom",
+        "text": "Kaci"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "personnePhysiquePrenom",
+        "text": "Solène"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "personnePhysiquePrenom",
+        "text": "Solène"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "personnePhysiqueNom",
+        "text": "GUYARD"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": "65375f5a974d258318454fed",
+        "label": "personnePhysiqueNom",
+        "text": "Gilbert"
+      },
+      {
+        "doc": "64631e712622c0d0f8d67d60",
+        "label": "personnePhysiqueNom",
+        "text": "Marchand"
+      },
+      {
+        "doc": "64631e712622c0d0f8d67d60",
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc3",
+        "label": "localite",
+        "text": "Narbonne"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc3",
+        "label": "dateDeNaissance",
+        "text": "10 février 1950"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc3",
+        "label": "localite",
+        "text": "Le Creusot"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e59",
+        "label": "adresse",
+        "text": "91 rue Anatole-France"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc5",
+        "label": "personnePhysiqueNom",
+        "text": "JULIEN"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc5",
+        "label": "personnePhysiqueNom",
+        "text": "LUCAS"
+      },
+      {
+        "doc": "64631e1d2622c0d0f8d67bc5",
+        "label": "localite",
+        "text": "Thionville"
+      },
+      {
+        "doc": "66dbec9e33cdcc763a3b9ad5",
+        "label": "adresse",
+        "text": "147 rue Anatole-France"
+      },
+      {
+        "doc": "66dbec9e33cdcc763a3b9ad5",
+        "label": "adresse",
+        "text": "147 rue Anatole-France"
+      },
+      {
+        "doc": "66dbec9e33cdcc763a3b9ad5",
+        "label": "adresse",
+        "text": "147 rue Anatole-France"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "localite",
+        "text": "Grasse"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiquePrenom",
+        "text": "Delphine"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BOUAZIZ"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BOUAZIZ"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "63903f3a0f8a5205d45d81f3",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "6881beb753f7f060d28c78ad",
+        "label": "localite",
+        "text": "Grasse"
+      },
+      {
+        "doc": "65375f62974d258318455021",
+        "label": "adresse",
+        "text": "3 rue du 11-Novembre"
+      },
+      {
+        "doc": "67aee144617361a2d7947cb7",
+        "label": "localite",
+        "text": "Narbonne"
+      },
+      {
+        "doc": "67aee144617361a2d7947cb7",
+        "label": "localite",
+        "text": "Narbonne"
+      },
+      {
+        "doc": "67aee144617361a2d7947cb7",
+        "label": "localite",
+        "text": "Narbonne"
+      },
+      {
+        "doc": "67aee144617361a2d7947cb7",
+        "label": "personnePhysiqueNom",
+        "text": "MATHIEU"
+      },
+      {
+        "doc": "6537610b974d258318455193",
+        "label": "localite",
+        "text": "Calais"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "localite",
+        "text": "Neuilly-sur-Seine"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "personnePhysiquePrenom",
+        "text": "Zineb"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "personnePhysiquePrenom",
+        "text": "Zineb"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "dateDeNaissance",
+        "text": "24 mars 1944"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "adresse",
+        "text": "7 rue de Verdun"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "dateDeNaissance",
+        "text": "24 mars 1944"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "personnePhysiqueNom",
+        "text": "MORIN"
+      },
+      {
+        "doc": "6881bec053f7f060d28c7935",
+        "label": "personnePhysiquePrenom",
+        "text": "Zineb"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "personnePhysiqueNom",
+        "text": "HUBERT"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "localite",
+        "text": "La Seyne-sur-Mer"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": "67aee13c617361a2d7947c6d",
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiqueNom",
+        "text": "GAUTIER"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiqueNom",
+        "text": "CLÉMENT"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiquePrenom",
+        "text": "Assia"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiqueNom",
+        "text": "GAUTIER"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiqueNom",
+        "text": "CLÉMENT"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiquePrenom",
+        "text": "Priscilla"
+      },
+      {
+        "doc": "67aedfa5418db33424a8bdf0",
+        "label": "personnePhysiquePrenom",
+        "text": "Priscilla"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d32",
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d32",
+        "label": "personnePhysiqueNom",
+        "text": "BRAULT"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d32",
+        "label": "dateDeNaissance",
+        "text": "7 novembre 1999"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d32",
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": "63903f470f8a5205d45d824b",
+        "label": "personnePhysiqueNom",
+        "text": "Roger"
+      },
+      {
+        "doc": "660e43080740db0008fa92c3",
+        "label": "personnePhysiqueNom",
+        "text": "Lucas"
+      },
+      {
+        "doc": "67aee155617361a2d7947d91",
+        "label": "adresse",
+        "text": "40 rue Anatole-France"
+      },
+      {
+        "doc": "67aee155617361a2d7947d91",
+        "label": "adresse",
+        "text": "40 rue Anatole-France"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiquePrenom",
+        "text": "Augustin"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiqueNom",
+        "text": "Hubert"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiquePrenom",
+        "text": "Augustin"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiquePrenom",
+        "text": "Augustin"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiqueNom",
+        "text": "Hubert"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiqueNom",
+        "text": "Hubert"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiquePrenom",
+        "text": "Augustin"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiqueNom",
+        "text": "Hubert"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiqueNom",
+        "text": "Hubert"
+      },
+      {
+        "doc": "69561fad75782d5f066e7ede",
+        "label": "personnePhysiquePrenom",
+        "text": "Augustin"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78b9",
+        "label": "adresse",
+        "text": "150 avenue Victor-Hugo"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78b9",
+        "label": "localite",
+        "text": "Molsheim"
+      },
+      {
+        "doc": "66dbec6333cdcc763a3b98a5",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": "66dbec6333cdcc763a3b98a5",
+        "label": "personnePhysiquePrenom",
+        "text": "Assia"
+      },
+      {
+        "doc": "66dbec6333cdcc763a3b98a5",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": "66dbecb033cdcc763a3b9b77",
+        "label": "personnePhysiqueNom",
+        "text": "GUILLOU"
+      },
+      {
+        "doc": "66dbecb033cdcc763a3b9b77",
+        "label": "personnePhysiquePrenom",
+        "text": "Mai"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiquePrenom",
+        "text": "Delphine"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiqueNom",
+        "text": "SCHMITT"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "dateDeNaissance",
+        "text": "11 janvier 1969"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiqueNom",
+        "text": "Delpech"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiqueNom",
+        "text": "SCHMITT"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiquePrenom",
+        "text": "Ilyes"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiqueNom",
+        "text": "CARRÉ"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiquePrenom",
+        "text": "Ilyes"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiqueNom",
+        "text": "Perez"
+      },
+      {
+        "doc": "66dbec9a33cdcc763a3b9a9b",
+        "label": "personnePhysiquePrenom",
+        "text": "Ilyes"
+      },
+      {
+        "doc": "64631e6d2622c0d0f8d67d2e",
+        "label": "adresse",
+        "text": "172 rue Anatole-France"
+      }
+    ],
+    "spurious": [
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "personnePhysiqueNom",
+        "text": "BLUCHE"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "adresse",
+        "text": "144 rue Anatole"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "personnePhysiquePrenom",
+        "text": "Olivier"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist(LRAR"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Marie-Daphné"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "Perrin"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "personnePhysiqueNom",
+        "text": "DEVIN"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "personnePhysiqueNom",
+        "text": "DEVIN"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiqueNom",
+        "text": "HUBERTà"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiqueNom",
+        "text": "GUINARD"
+      },
+      {
+        "doc": "64631e7f2622c0d0f8d67db7",
+        "label": "personnePhysiquePrenom",
+        "text": "WendyHUBERT"
+      },
+      {
+        "doc": "653760fe974d258318455137",
+        "label": "personnePhysiquePrenom",
+        "text": "Soliha"
+      },
+      {
+        "doc": "653760fe974d258318455137",
+        "label": "localite",
+        "text": "Mont-de-Marsan --"
+      },
+      {
+        "doc": "63903f510f8a5205d45d827c",
+        "label": "adresse",
+        "text": "99 rue Anatole-"
+      },
+      {
+        "doc": "63903f510f8a5205d45d827c",
+        "label": "adresse",
+        "text": "99 rue Anatole-"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiqueNom",
+        "text": "Murat"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiqueNom",
+        "text": "Murat"
+      },
+      {
+        "doc": "6614da4a28647600086a9075",
+        "label": "personnePhysiqueNom",
+        "text": "Murat"
+      },
+      {
+        "doc": "63918e6e6d1e4f05d4f68048",
+        "label": "personnePhysiquePrenom",
+        "text": "Clément"
+      },
+      {
+        "doc": "66dbeca233cdcc763a3b9afb",
+        "label": "personnePhysiqueNom",
+        "text": "Sellier"
+      },
+      {
+        "doc": "66dbecaf33cdcc763a3b9b67",
+        "label": "personnePhysiquePrenom",
+        "text": "M.Cyril"
+      },
+      {
+        "doc": "6881bec253f7f060d28c7955",
+        "label": "personnePhysiqueNom",
+        "text": "EPOUSE"
+      },
+      {
+        "doc": "64631e692622c0d0f8d67d0a",
+        "label": "adresse",
+        "text": "5 quai de l'Horloge"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790f",
+        "label": "dateDeNaissance",
+        "text": "décembre"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790f",
+        "label": "personnePhysiqueNom",
+        "text": "Lesne"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790f",
+        "label": "personnePhysiquePrenom",
+        "text": "Christine"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiquePrenom",
+        "text": "déborah"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiquePrenom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiquePrenom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiquePrenom",
+        "text": "Julien"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiqueNom",
+        "text": "PONSEELE"
+      },
+      {
+        "doc": "63b6776aa853827c9026d153",
+        "label": "personnePhysiquePrenom",
+        "text": "Julien"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "ALLARD"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Allard"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "localite",
+        "text": "Les Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "localite",
+        "text": "Les Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiquePrenom",
+        "text": "Raphael"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Levetti"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Favre"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "688af896aac506b5d705d049",
+        "label": "personnePhysiqueNom",
+        "text": "Sources"
+      },
+      {
+        "doc": "6881bec153f7f060d28c793f",
+        "label": "personnePhysiquePrenom",
+        "text": "Adil"
+      },
+      {
+        "doc": "639976b4b7ec7f05d42d7cbb",
+        "label": "localite",
+        "text": "Besançon"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78bf",
+        "label": "personnePhysiqueNom",
+        "text": "Dubois"
+      },
+      {
+        "doc": "6881beb853f7f060d28c78bf",
+        "label": "personnePhysiqueNom",
+        "text": "Rahon"
+      },
+      {
+        "doc": "64631e1b2622c0d0f8d67bb7",
+        "label": "adresse",
+        "text": "Pégalous"
+      },
+      {
+        "doc": "64631e1b2622c0d0f8d67bb7",
+        "label": "localite",
+        "text": "Temple"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY-Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "Wolff"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "Pineau"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "Barret"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "BERNIER"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "Bernier"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "Bernier"
+      },
+      {
+        "doc": "695bdbd275782d5f06de028d",
+        "label": "personnePhysiqueNom",
+        "text": "AUBRY - Agnès"
+      },
+      {
+        "doc": "64631e662622c0d0f8d67d00",
+        "label": "dateDeNaissance",
+        "text": "8 juillet 1954"
+      },
+      {
+        "doc": "64631e662622c0d0f8d67d00",
+        "label": "dateDeNaissance",
+        "text": "16"
+      },
+      {
+        "doc": "64631e662622c0d0f8d67d00",
+        "label": "dateDeNaissance",
+        "text": "1952"
+      },
+      {
+        "doc": "64631e662622c0d0f8d67d00",
+        "label": "dateDeNaissance",
+        "text": "11 Août 1953"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiqueNom",
+        "text": "CAEN"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "6883113a4d9076bf079c23ab",
+        "label": "personnePhysiquePrenom",
+        "text": "Tanguy"
+      },
+      {
+        "doc": "66dbecbc33cdcc763a3b9bf5",
+        "label": "personnePhysiqueNom",
+        "text": "LAFABREGUE"
+      },
+      {
+        "doc": "65336b6fbb40ec8318f31e4d",
+        "label": "localite",
+        "text": "Rouen"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790b",
+        "label": "personnePhysiquePrenom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790b",
+        "label": "dateDeNaissance",
+        "text": "juin"
+      },
+      {
+        "doc": "6881bebd53f7f060d28c790b",
+        "label": "personnePhysiquePrenom",
+        "text": "Thierry"
+      },
+      {
+        "doc": "660b9fbcf83f5d0008a2f04e",
+        "label": "personnePhysiqueNom",
+        "text": "Garcia"
+      },
+      {
+        "doc": "66dbeca933cdcc763a3b9b1f",
+        "label": "personnePhysiqueNom",
+        "text": "Redon"
+      },
+      {
+        "doc": "66dbec8f33cdcc763a3b9a0b",
+        "label": "personnePhysiquePrenom",
+        "text": "Céline"
+      },
+      {
+        "doc": "66dbec8f33cdcc763a3b9a0b",
+        "label": "personnePhysiquePrenom",
+        "text": "Kaci"
+      },
+      {
+        "doc": "64631e7b2622c0d0f8d67da3",
+        "label": "localite",
+        "text": "Plérin"
+      }
+    ]
+  },
+  "leaks": {
+    "count": 61,
+    "examples": [
+      {
+        "doc": 2,
+        "label": "adresse",
+        "text": "144 rue Anatole-France"
+      },
+      {
+        "doc": 3,
+        "label": "dateDeNaissance",
+        "text": "5 septembre 1985"
+      },
+      {
+        "doc": 4,
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": 8,
+        "label": "personnePhysiquePrenom",
+        "text": "Élise"
+      },
+      {
+        "doc": 10,
+        "label": "personnePhysiquePrenom",
+        "text": "Françoise"
+      },
+      {
+        "doc": 10,
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": 17,
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": 17,
+        "label": "adresse",
+        "text": "99 rue Anatole-France"
+      },
+      {
+        "doc": 17,
+        "label": "adresse",
+        "text": "99 rue Anatole-France"
+      },
+      {
+        "doc": 39,
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": 39,
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": 39,
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": 43,
+        "label": "personnePhysiqueNom",
+        "text": "Clément"
+      },
+      {
+        "doc": 50,
+        "label": "personnePhysiquePrenom",
+        "text": "Solène"
+      },
+      {
+        "doc": 50,
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": 50,
+        "label": "personnePhysiqueNom",
+        "text": "GUYARD"
+      },
+      {
+        "doc": 50,
+        "label": "personnePhysiquePrenom",
+        "text": "Solène"
+      },
+      {
+        "doc": 50,
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": 54,
+        "label": "personnePhysiqueNom",
+        "text": "Gilbert"
+      },
+      {
+        "doc": 58,
+        "label": "dateDeNaissance",
+        "text": "10 février 1950"
+      },
+      {
+        "doc": 61,
+        "label": "adresse",
+        "text": "91 rue Anatole-France"
+      },
+      {
+        "doc": 62,
+        "label": "personnePhysiqueNom",
+        "text": "JULIEN"
+      },
+      {
+        "doc": 62,
+        "label": "personnePhysiqueNom",
+        "text": "LUCAS"
+      },
+      {
+        "doc": 63,
+        "label": "adresse",
+        "text": "147 rue Anatole-France"
+      },
+      {
+        "doc": 63,
+        "label": "adresse",
+        "text": "147 rue Anatole-France"
+      },
+      {
+        "doc": 63,
+        "label": "adresse",
+        "text": "147 rue Anatole-France"
+      },
+      {
+        "doc": 64,
+        "label": "personnePhysiqueNom",
+        "text": "BOUAZIZ"
+      },
+      {
+        "doc": 64,
+        "label": "personnePhysiquePrenom",
+        "text": "Delphine"
+      },
+      {
+        "doc": 64,
+        "label": "personnePhysiqueNom",
+        "text": "BOUAZIZ"
+      },
+      {
+        "doc": 69,
+        "label": "adresse",
+        "text": "3 rue du 11-Novembre"
+      },
+      {
+        "doc": 70,
+        "label": "personnePhysiqueNom",
+        "text": "MATHIEU"
+      },
+      {
+        "doc": 73,
+        "label": "dateDeNaissance",
+        "text": "24 mars 1944"
+      },
+      {
+        "doc": 73,
+        "label": "personnePhysiqueNom",
+        "text": "MORIN"
+      },
+      {
+        "doc": 73,
+        "label": "dateDeNaissance",
+        "text": "24 mars 1944"
+      },
+      {
+        "doc": 73,
+        "label": "adresse",
+        "text": "7 rue de Verdun"
+      },
+      {
+        "doc": 76,
+        "label": "personnePhysiqueNom",
+        "text": "CLÉMENT"
+      },
+      {
+        "doc": 76,
+        "label": "personnePhysiquePrenom",
+        "text": "Priscilla"
+      },
+      {
+        "doc": 76,
+        "label": "personnePhysiqueNom",
+        "text": "GAUTIER"
+      },
+      {
+        "doc": 76,
+        "label": "personnePhysiquePrenom",
+        "text": "Assia"
+      },
+      {
+        "doc": 76,
+        "label": "personnePhysiqueNom",
+        "text": "CLÉMENT"
+      },
+      {
+        "doc": 76,
+        "label": "personnePhysiquePrenom",
+        "text": "Priscilla"
+      },
+      {
+        "doc": 76,
+        "label": "personnePhysiqueNom",
+        "text": "GAUTIER"
+      },
+      {
+        "doc": 81,
+        "label": "dateDeNaissance",
+        "text": "7 novembre 1999"
+      },
+      {
+        "doc": 81,
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": 81,
+        "label": "personnePhysiqueNom",
+        "text": "BRAULT"
+      },
+      {
+        "doc": 81,
+        "label": "personnePhysiquePrenom",
+        "text": "Van"
+      },
+      {
+        "doc": 85,
+        "label": "adresse",
+        "text": "40 rue Anatole-France"
+      },
+      {
+        "doc": 85,
+        "label": "adresse",
+        "text": "40 rue Anatole-France"
+      },
+      {
+        "doc": 88,
+        "label": "adresse",
+        "text": "150 avenue Victor-Hugo"
+      },
+      {
+        "doc": 91,
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      }
+    ]
+  }
+}

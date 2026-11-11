@@ -1,0 +1,4384 @@
+{
+  "model": "spacy",
+  "split": "data/mixed/test.jsonl",
+  "labels": "reinjected",
+  "documents": 100,
+  "seconds_per_doc": 0.126,
+  "raw": {
+    "micro": {
+      "tp": 2732,
+      "fp": 4886,
+      "fn": 2294,
+      "precision": 0.3586,
+      "recall": 0.5436,
+      "f1": 0.4321
+    },
+    "micro_f1_ci95": [
+      0.3791,
+      0.4834
+    ],
+    "documents": 100,
+    "per_label": {
+      "adresse": {
+        "tp": 88,
+        "fp": 74,
+        "fn": 232,
+        "precision": 0.5432,
+        "recall": 0.275,
+        "f1": 0.3651
+      },
+      "dateDeNaissance": {
+        "tp": 14,
+        "fp": 432,
+        "fn": 0,
+        "precision": 0.0314,
+        "recall": 1.0,
+        "f1": 0.0609
+      },
+      "localite": {
+        "tp": 121,
+        "fp": 2166,
+        "fn": 406,
+        "precision": 0.0529,
+        "recall": 0.2296,
+        "f1": 0.086
+      },
+      "personnePhysiqueNom": {
+        "tp": 1643,
+        "fp": 1423,
+        "fn": 1183,
+        "precision": 0.5359,
+        "recall": 0.5814,
+        "f1": 0.5577
+      },
+      "personnePhysiquePrenom": {
+        "tp": 866,
+        "fp": 791,
+        "fn": 473,
+        "precision": 0.5226,
+        "recall": 0.6468,
+        "f1": 0.5781
+      }
+    },
+    "missed": [
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Maubeuge"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Vitry-sur-Seine"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Maubeuge"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "adresse",
+        "text": "55 boulevard Carnot"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Maubeuge"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Landerneau"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Remiremont"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "HUBERT"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "CLÉMENT"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Yannick"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "adresse",
+        "text": "114 rue du Port"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Rochefort"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "adresse",
+        "text": "144 rue Anatole-France"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "personnePhysiquePrenom",
+        "text": "Léonie"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "DARRIEU"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "adresse",
+        "text": "135 rue de Lorraine"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "PEREZ"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "PEREZ"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "adresse",
+        "text": "152 rue de Provence"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "adresse",
+        "text": "93 rue Anatole-France"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "PEREZ"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "DARRIEU"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Charleville-Mézières"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "PEREZ"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "DARRIEU"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "PEREZ"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "PEREZ"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "PEREZ"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "PEREZ"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Mont-de-Marsan"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Mélissa"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "adresse",
+        "text": "128 rue de Provence"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Saint-Dié"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Mélissa"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Mélissa"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Grasse"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Maubeuge"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Mélissa"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "130 avenue du 19-Mars-1962"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "localite",
+        "text": "Auch"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "localite",
+        "text": "Auch"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "130 avenue du 19-Mars-1962"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiquePrenom",
+        "text": "Oscar"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "43 rue du Port"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "143 avenue Victor-Hugo"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "130 avenue du 19-Mars-1962"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Aubry"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "130 avenue du 19-Mars-1962"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "660b9fbbf83f5d0008a2f034",
+        "label": "personnePhysiquePrenom",
+        "text": "Huguette"
+      },
+      {
+        "doc": "660b9fbbf83f5d0008a2f034",
+        "label": "personnePhysiqueNom",
+        "text": "BOUAZIZ"
+      },
+      {
+        "doc": "660b9fbbf83f5d0008a2f034",
+        "label": "localite",
+        "text": "Redon"
+      },
+      {
+        "doc": "660b9fbbf83f5d0008a2f034",
+        "label": "personnePhysiquePrenom",
+        "text": "Valentin"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Agathe"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Laroche"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Lucas"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Guillou"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "CLÉMENT"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Jessica"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DENIS"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "CARRÉ"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Karima"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Renard"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Renard"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Dominique"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "ROGER"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "localite",
+        "text": "Clichy"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "CORDIER"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Braun"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Charlotte"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Guillou"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Cousin"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "MARCHAND"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Karima"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "RENAULT"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Justine"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Cousin"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "ROGER"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "ALBERT"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Agathe"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Agathe"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "CORRE"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "localite",
+        "text": "Pontivy"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiquePrenom",
+        "text": "Élise"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiquePrenom",
+        "text": "Élise"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "adresse",
+        "text": "84 rue Émile-Zola"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "adresse",
+        "text": "101 rue de la Gare"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "localite",
+        "text": "Rochefort"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "localite",
+        "text": "Saint-Quentin"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiquePrenom",
+        "text": "Élise"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "adresse",
+        "text": "108 avenue Foch"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "adresse",
+        "text": "67 rue Hoche"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "ROY"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "ROY"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "ROY"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "FONTANA"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "FONTANA"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Steve"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "FONTANA"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "localite",
+        "text": "Grasse"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "ROY"
+      }
+    ],
+    "spurious": [
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE PRÉFET"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "France"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Asile"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Stéphanie"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "dateDeNaissance",
+        "text": "10 Mars 1995"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Schengen"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "'Alte"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Créteil"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "adresse",
+        "text": "4 jours dans des locaux ne relevant pas de l'administration pénitentiaire, et qui a été notifié à l'intéressé le jour-même à 10 heures à Remiremont"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "dateDeNaissance",
+        "text": "1°)MONSIEUR"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LECLERC"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Monsieur Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Montpellier"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "PETIT"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Kbis"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Montpellier"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "BONGIRAUD"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Nathalie"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE FOND"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE PRÉFET"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Tunisie"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "PREFET DES PYRENEES-ORIENTALES"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "Statuant"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "Public"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "(TUNISIE"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "HUBERT"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "R"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE MOYEN"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Le greffier, Le magistrat délégué"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "BERNARD"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Disons"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "France"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE PRÉFET"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Montpellier"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "République"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "dateDeNaissance",
+        "text": "23 mai 2025"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "dateDeNaissance",
+        "text": "LE MINISTÈRE PUBLIC"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Meaux"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Cameroun"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "PUBLIC"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "17h37"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "17h37"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Plahotnik"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Paris"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "LE PRÉSIDENT"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Paris"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": ")"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Meaux"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "dateDeNaissance",
+        "text": "07 juillet 2002"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Mouty"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "LE GREFFIER"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "dateDeNaissance",
+        "text": "7 juillet 2002"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "LE PREFET"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Avocats"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Meaux"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": ")"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "dateDeNaissance",
+        "text": "6 octobre 2023"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "adresse",
+        "text": "5 années. L'intéressé a reçu la notification de cette décision le 19 décembre 2025 à 17h20.\n\nLe 22 décembre 2025 le préfet a placé M. Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Paris"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "dateDeNaissance",
+        "text": "-Tardieu,"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "FRANÇAISE"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Ainsi"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Nous"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "RÉPUBLIQUE"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Marne"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Julie"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Paris"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "APPELANTES"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Space"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Rappelons"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Portalis"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "adresse",
+        "text": "144 rue Anatole"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Space contre"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Toulouse"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "SCP MALET FRANCK"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Space"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "DELVER"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "personnePhysiqueNom",
+        "text": "BLUM''"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Space"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Space"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "8]'"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Payeur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Interdits"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "S"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Public"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Ainsi"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Conseillère"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "I F"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Septembre"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "8]' ;"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "ROUBLOT"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Portalis"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "10], prise"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Conseillère"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "N"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Régine"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Président"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "VARBANOV"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "STRASBOURG - Greffe"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "RHODE"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "128-1"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Cependant"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "STRASBOURG"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "DECLARER Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "DEBOUTER Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Public"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "25 septembre 2023"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Statuant"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "National"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Greffiers"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Greffiers"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Président"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Public"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "DBVW-V"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "RHODE"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "SELARL ARTHUS"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Succombant"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "FAIT"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Générale"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "VELLAINE"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Procureur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "HT "
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Me DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Subsidiairement"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Soissons"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Malika"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Odile"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "qu'"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Valérie"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Soissons"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Me DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Soissons"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "Maigrot"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DUBAELE"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "Iard"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "RABHI"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Florence"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Parallèlement"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Sarl Hexa"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "SCP DELACROIX Barault"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "DELACROIX-BARAULT-MAIGROT"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "Maigrot"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Présidente"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Florence"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Auxiga"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Eiffage"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "adresse",
+        "text": "qu'ils ne sont pas devenus la propriété du bailleur,\n\n-le bail commercial dont bénéficiait la SARL"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "SCP DELACROIX Barault"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "MATHIEU"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "MATHIEU"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "SCP"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "«"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Auxiga"
+      }
+    ]
+  },
+  "postprocessed": {
+    "micro": {
+      "tp": 3079,
+      "fp": 5383,
+      "fn": 1947,
+      "precision": 0.3639,
+      "recall": 0.6126,
+      "f1": 0.4566
+    },
+    "micro_f1_ci95": [
+      0.3964,
+      0.5121
+    ],
+    "documents": 100,
+    "per_label": {
+      "adresse": {
+        "tp": 88,
+        "fp": 74,
+        "fn": 232,
+        "precision": 0.5432,
+        "recall": 0.275,
+        "f1": 0.3651
+      },
+      "dateDeNaissance": {
+        "tp": 14,
+        "fp": 432,
+        "fn": 0,
+        "precision": 0.0314,
+        "recall": 1.0,
+        "f1": 0.0609
+      },
+      "localite": {
+        "tp": 121,
+        "fp": 2166,
+        "fn": 406,
+        "precision": 0.0529,
+        "recall": 0.2296,
+        "f1": 0.086
+      },
+      "personnePhysiqueNom": {
+        "tp": 1900,
+        "fp": 1605,
+        "fn": 926,
+        "precision": 0.5421,
+        "recall": 0.6723,
+        "f1": 0.6002
+      },
+      "personnePhysiquePrenom": {
+        "tp": 956,
+        "fp": 1106,
+        "fn": 383,
+        "precision": 0.4636,
+        "recall": 0.714,
+        "f1": 0.5622
+      }
+    },
+    "missed": [
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Maubeuge"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Vitry-sur-Seine"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Maubeuge"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "adresse",
+        "text": "55 boulevard Carnot"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Maubeuge"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Landerneau"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Remiremont"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "HUBERT"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "CLÉMENT"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Yannick"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "adresse",
+        "text": "114 rue du Port"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Rochefort"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "adresse",
+        "text": "144 rue Anatole-France"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "personnePhysiquePrenom",
+        "text": "Léonie"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "DARRIEU"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "adresse",
+        "text": "135 rue de Lorraine"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "adresse",
+        "text": "152 rue de Provence"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "adresse",
+        "text": "93 rue Anatole-France"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "DARRIEU"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Charleville-Mézières"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "DARRIEU"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Maubeuge"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Saint-Dié"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Mélissa"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Grasse"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "adresse",
+        "text": "128 rue de Provence"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Mélissa"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Mont-de-Marsan"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "130 avenue du 19-Mars-1962"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "localite",
+        "text": "Auch"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "localite",
+        "text": "Auch"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "130 avenue du 19-Mars-1962"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiquePrenom",
+        "text": "Oscar"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "43 rue du Port"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "143 avenue Victor-Hugo"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "130 avenue du 19-Mars-1962"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Aubry"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "personnePhysiqueNom",
+        "text": "Saidi"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "130 avenue du 19-Mars-1962"
+      },
+      {
+        "doc": "63903f5a0f8a5205d45d8296",
+        "label": "adresse",
+        "text": "125 rue Molière"
+      },
+      {
+        "doc": "660b9fbbf83f5d0008a2f034",
+        "label": "personnePhysiquePrenom",
+        "text": "Huguette"
+      },
+      {
+        "doc": "660b9fbbf83f5d0008a2f034",
+        "label": "personnePhysiqueNom",
+        "text": "BOUAZIZ"
+      },
+      {
+        "doc": "660b9fbbf83f5d0008a2f034",
+        "label": "localite",
+        "text": "Redon"
+      },
+      {
+        "doc": "660b9fbbf83f5d0008a2f034",
+        "label": "personnePhysiquePrenom",
+        "text": "Valentin"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Agathe"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Laroche"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Lucas"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Guillou"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "CLÉMENT"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Jessica"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DENIS"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "CARRÉ"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Karima"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Renard"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Renard"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Dominique"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "ROGER"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "localite",
+        "text": "Clichy"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "CORDIER"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Braun"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Charlotte"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Guillou"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Cousin"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "MARCHAND"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Karima"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "RENAULT"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Justine"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "Cousin"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "ROGER"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "ALBERT"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Agathe"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiquePrenom",
+        "text": "Agathe"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "CORRE"
+      },
+      {
+        "doc": "639976b0b7ec7f05d42d7caa",
+        "label": "personnePhysiqueNom",
+        "text": "DESCAMPS"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "localite",
+        "text": "Pontivy"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiquePrenom",
+        "text": "Élise"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiquePrenom",
+        "text": "Élise"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "adresse",
+        "text": "84 rue Émile-Zola"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "adresse",
+        "text": "101 rue de la Gare"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "localite",
+        "text": "Rochefort"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "localite",
+        "text": "Saint-Quentin"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiquePrenom",
+        "text": "Élise"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "adresse",
+        "text": "108 avenue Foch"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "adresse",
+        "text": "67 rue Hoche"
+      },
+      {
+        "doc": "67aee2fd73631662452bc9ec",
+        "label": "personnePhysiqueNom",
+        "text": "Benoist"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "ROY"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "ROY"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "ROY"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "FONTANA"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "FONTANA"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Steve"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "FONTANA"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "localite",
+        "text": "Grasse"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "ROY"
+      },
+      {
+        "doc": "64631e6f2622c0d0f8d67d50",
+        "label": "personnePhysiqueNom",
+        "text": "FONTANA"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "localite",
+        "text": "Ivry-sur-Seine"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "personnePhysiqueNom",
+        "text": "Barbe"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "localite",
+        "text": "La Seyne-sur-Mer"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "adresse",
+        "text": "114 chemin de la Fontaine"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "personnePhysiquePrenom",
+        "text": "Françoise"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "adresse",
+        "text": "9 rue Kléber"
+      },
+      {
+        "doc": "6614da4728647600086a900b",
+        "label": "personnePhysiqueNom",
+        "text": "Barbe"
+      },
+      {
+        "doc": "67aedd9514f5d52be36b20ef",
+        "label": "personnePhysiqueNom",
+        "text": "GAUTIER"
+      },
+      {
+        "doc": "67aedd9514f5d52be36b20ef",
+        "label": "personnePhysiqueNom",
+        "text": "Dufour"
+      },
+      {
+        "doc": "67aedd9514f5d52be36b20ef",
+        "label": "personnePhysiqueNom",
+        "text": "BRAULT"
+      },
+      {
+        "doc": "67aedd9514f5d52be36b20ef",
+        "label": "adresse",
+        "text": "135 rue des Écoles"
+      },
+      {
+        "doc": "67aedd9514f5d52be36b20ef",
+        "label": "personnePhysiqueNom",
+        "text": "JAOUEN"
+      },
+      {
+        "doc": "67aedd9514f5d52be36b20ef",
+        "label": "personnePhysiqueNom",
+        "text": "BRAULT"
+      },
+      {
+        "doc": "67aedd9514f5d52be36b20ef",
+        "label": "adresse",
+        "text": "176 rue Jean-Monnet"
+      },
+      {
+        "doc": "67aedd9514f5d52be36b20ef",
+        "label": "personnePhysiquePrenom",
+        "text": "Jules"
+      }
+    ],
+    "spurious": [
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE PRÉFET"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "France"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE PRÉFET"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Asile"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Stéphanie"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "dateDeNaissance",
+        "text": "10 Mars 1995"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE PRÉFET"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Schengen"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "'Alte"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "adresse",
+        "text": "4 jours dans des locaux ne relevant pas de l'administration pénitentiaire, et qui a été notifié à l'intéressé le jour-même à 10 heures à Remiremont"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Créteil"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "dateDeNaissance",
+        "text": "1°)MONSIEUR"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LECLERC"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "dateDeNaissance",
+        "text": "23 mai 2025"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE PRÉFET"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE PRÉFET"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Monsieur Damien"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Montpellier"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "PETIT"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Kbis"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Montpellier"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "BONGIRAUD"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Nathalie"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE FOND"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE PRÉFET"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Tunisie"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "PREFET DES PYRENEES-ORIENTALES"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "Statuant"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "Public"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "(TUNISIE"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "HUBERT"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "R"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE MOYEN"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Le greffier, Le magistrat délégué"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "BERNARD"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE PRÉFET"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Disons"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "France"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiqueNom",
+        "text": "LE PRÉFET"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Montpellier"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "République"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "localite",
+        "text": "Perpignan"
+      },
+      {
+        "doc": "6881bec253f7f060d28c794f",
+        "label": "dateDeNaissance",
+        "text": "LE MINISTÈRE PUBLIC"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Meaux"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Cameroun"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "PUBLIC"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "17h37"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "17h37"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Plahotnik"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Paris"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "LE PRÉSIDENT"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Paris"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": ")"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Meaux"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "dateDeNaissance",
+        "text": "07 juillet 2002"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "Mouty"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "BODIN"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "LE GREFFIER"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "dateDeNaissance",
+        "text": "7 juillet 2002"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "LE PREFET"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Avocats"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Meaux"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": ")"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "dateDeNaissance",
+        "text": "6 octobre 2023"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "adresse",
+        "text": "5 années. L'intéressé a reçu la notification de cette décision le 19 décembre 2025 à 17h20.\n\nLe 22 décembre 2025 le préfet a placé M. Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Paris"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "dateDeNaissance",
+        "text": "-Tardieu,"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiqueNom",
+        "text": "FRANÇAISE"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Ainsi"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Nous"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "RÉPUBLIQUE"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Marne"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Keller"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "personnePhysiquePrenom",
+        "text": "Julie"
+      },
+      {
+        "doc": "69561b7f75782d5f066e3432",
+        "label": "localite",
+        "text": "Paris"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "APPELANTES"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Space"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Rappelons"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Portalis"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "adresse",
+        "text": "144 rue Anatole"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Space contre"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Toulouse"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "SCP MALET FRANCK"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Space"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "DELVER"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "personnePhysiqueNom",
+        "text": "BLUM''"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Space"
+      },
+      {
+        "doc": "65336b72bb40ec8318f31e5b",
+        "label": "localite",
+        "text": "Space"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "8]'"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Payeur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Interdits"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "S"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Public"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Ainsi"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Conseillère"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "I F"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Septembre"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "8]' ;"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "ROUBLOT"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Portalis"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "10], prise"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Conseillère"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "N"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Régine"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Président"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "VARBANOV"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "STRASBOURG - Greffe"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "RHODE"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "128-1"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Cependant"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "STRASBOURG"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "DECLARER Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "DEBOUTER Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Public"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "25 septembre 2023"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Statuant"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "National"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Greffiers"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Greffiers"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Président"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Public"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "dateDeNaissance",
+        "text": "DBVW-V"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "RHODE"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "SELARL ARTHUS"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Succombant"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "FAIT"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiquePrenom",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "Générale"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "personnePhysiqueNom",
+        "text": "VELLAINE"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Procureur"
+      },
+      {
+        "doc": "688311384d9076bf079c2395",
+        "label": "localite",
+        "text": "Monsieur"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "HT "
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Me DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Subsidiairement"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Soissons"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Malika"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Odile"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "IARD"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "qu'"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiquePrenom",
+        "text": "Valérie"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Soissons"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Me DELACROIX"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "localite",
+        "text": "Soissons"
+      },
+      {
+        "doc": "67aee49374f5133eff49cf0a",
+        "label": "personnePhysiqueNom",
+        "text": "Maigrot"
+      }
+    ]
+  },
+  "leaks": {
+    "count": 1153,
+    "examples": [
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiqueNom",
+        "text": "HUBERT"
+      },
+      {
+        "doc": 0,
+        "label": "adresse",
+        "text": "55 boulevard Carnot"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Ahmed"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 0,
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": 1,
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": 1,
+        "label": "personnePhysiquePrenom",
+        "text": "Yannick"
+      },
+      {
+        "doc": 1,
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": 1,
+        "label": "personnePhysiqueNom",
+        "text": "BODIN"
+      },
+      {
+        "doc": 1,
+        "label": "personnePhysiqueNom",
+        "text": "Keller"
+      },
+      {
+        "doc": 1,
+        "label": "adresse",
+        "text": "114 rue du Port"
+      },
+      {
+        "doc": 1,
+        "label": "personnePhysiqueNom",
+        "text": "CLÉMENT"
+      },
+      {
+        "doc": 2,
+        "label": "personnePhysiquePrenom",
+        "text": "Léonie"
+      },
+      {
+        "doc": 2,
+        "label": "adresse",
+        "text": "144 rue Anatole-France"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 3,
+        "label": "adresse",
+        "text": "93 rue Anatole-France"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiqueNom",
+        "text": "DARRIEU"
+      },
+      {
+        "doc": 3,
+        "label": "adresse",
+        "text": "135 rue de Lorraine"
+      },
+      {
+        "doc": 3,
+        "label": "adresse",
+        "text": "152 rue de Provence"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiqueNom",
+        "text": "DARRIEU"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiqueNom",
+        "text": "DARRIEU"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 3,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 4,
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": 4,
+        "label": "adresse",
+        "text": "128 rue de Provence"
+      },
+      {
+        "doc": 4,
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": 4,
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      },
+      {
+        "doc": 4,
+        "label": "personnePhysiqueNom",
+        "text": "DELACROIX"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+# Déploiement Kubernetes de l'API de pseudonymisation.
+#   kubectl apply -f deploy/k8s/
+#   kubectl set image deployment/pseudo-ner-api api=<registre>/pseudo-ner:<version>   # mise à jour progressive
+#   kubectl rollout undo deployment/pseudo-ner-api                                     # retour arrière
+# <version> = champ "version" de models/current.json ; /health le renvoie (model_version) pour vérification.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pseudo-ner-api
+  labels:
+    app: pseudo-ner-api
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  selector:
+    matchLabels:
+      app: pseudo-ner-api
+  template:
+    metadata:
+      labels:
+        app: pseudo-ner-api
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/path: /metrics
+        prometheus.io/port: "8000"
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+      containers:
+        - name: api
+          image: pseudo-ner:spacy-2026-11-10-00000000  # remplacé par la version promue
+          ports:
+            - containerPort: 8000
+          env:
+            - name: PSEUDO_NER_MODEL
+              value: spacy
+            - name: PSEUDO_NER_MODEL_DIR
+              value: models/spacy
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 30
+            periodSeconds: 30
+          resources:
+            requests:
+              cpu: 500m
+              memory: 1Gi
+            limits:
+              cpu: "2"
+              memory: 2Gi
+          securityContext:
+            readOnlyRootFilesystem: true
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop: ["ALL"]
+          volumeMounts:
+            - name: tmp
+              mountPath: /tmp
+      volumes:
+        - name: tmp
+          emptyDir: {}

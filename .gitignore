@@ -1,0 +1,16 @@
+models/*/
+!models/registry.json
+data/synthetic/
+data/judilibre/
+reports/*
+!reports/*.json
+logs_*.txt
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+*.egg-info/
+.venv/
+checkpoints/

@@ -1,0 +1,1094 @@
+{
+  "model": "spacy",
+  "split": "test",
+  "labels": "all",
+  "documents": 90,
+  "seconds_per_doc": 0.015,
+  "raw": {
+    "micro": {
+      "tp": 3029,
+      "fp": 4,
+      "fn": 97,
+      "precision": 0.9987,
+      "recall": 0.969,
+      "f1": 0.9836
+    },
+    "per_label": {
+      "adresse": {
+        "tp": 221,
+        "fp": 4,
+        "fn": 4,
+        "precision": 0.9822,
+        "recall": 0.9822,
+        "f1": 0.9822
+      },
+      "dateDeNaissance": {
+        "tp": 122,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "localite": {
+        "tp": 364,
+        "fp": 0,
+        "fn": 41,
+        "precision": 1.0,
+        "recall": 0.8988,
+        "f1": 0.9467
+      },
+      "personneMorale": {
+        "tp": 171,
+        "fp": 0,
+        "fn": 33,
+        "precision": 1.0,
+        "recall": 0.8382,
+        "f1": 0.912
+      },
+      "personnePhysiqueNom": {
+        "tp": 632,
+        "fp": 0,
+        "fn": 19,
+        "precision": 1.0,
+        "recall": 0.9708,
+        "f1": 0.9852
+      },
+      "personnePhysiquePrenom": {
+        "tp": 439,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "professionnelAvocat": {
+        "tp": 360,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "professionnelMagistratGreffier": {
+        "tp": 720,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "missed": [
+      {
+        "doc": "synth-test-2-0000",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "adresse",
+        "text": "146 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiqueNom",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personnePhysiqueNom",
+        "text": "Perez"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "adresse",
+        "text": "146 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiqueNom",
+        "text": "Denis"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0030",
+        "label": "personneMorale",
+        "text": "SAS Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0030",
+        "label": "personneMorale",
+        "text": "SAS Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "personnePhysiqueNom",
+        "text": "Perrin"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "personneMorale",
+        "text": "SAS Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0032",
+        "label": "personnePhysiqueNom",
+        "text": "Perez"
+      },
+      {
+        "doc": "synth-test-2-0033",
+        "label": "personnePhysiqueNom",
+        "text": "Meyer"
+      },
+      {
+        "doc": "synth-test-2-0036",
+        "label": "personneMorale",
+        "text": "SA Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0036",
+        "label": "personneMorale",
+        "text": "SA Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0036",
+        "label": "personnePhysiqueNom",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0038",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0040",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0040",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0041",
+        "label": "personneMorale",
+        "text": "SAS Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0041",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0041",
+        "label": "personneMorale",
+        "text": "SAS Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0042",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0043",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0047",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0048",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0049",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0051",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0054",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0055",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0055",
+        "label": "adresse",
+        "text": "174 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0055",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0055",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0056",
+        "label": "personneMorale",
+        "text": "SARL Studio Graphique"
+      },
+      {
+        "doc": "synth-test-2-0059",
+        "label": "personnePhysiqueNom",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0059",
+        "label": "personnePhysiqueNom",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0059",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0061",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0061",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0062",
+        "label": "personneMorale",
+        "text": "SA Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0062",
+        "label": "personneMorale",
+        "text": "SA Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0062",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0066",
+        "label": "personnePhysiqueNom",
+        "text": "Meyer"
+      },
+      {
+        "doc": "synth-test-2-0067",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0067",
+        "label": "localite",
+        "text": "Quimper"
+      },
+      {
+        "doc": "synth-test-2-0067",
+        "label": "adresse",
+        "text": "49 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0068",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0068",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0068",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0069",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0070",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0070",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0071",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0075",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0075",
+        "label": "personnePhysiqueNom",
+        "text": "Noël"
+      },
+      {
+        "doc": "synth-test-2-0075",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0078",
+        "label": "personnePhysiqueNom",
+        "text": "Leclerc"
+      },
+      {
+        "doc": "synth-test-2-0080",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0080",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0081",
+        "label": "personnePhysiqueNom",
+        "text": "Morin"
+      },
+      {
+        "doc": "synth-test-2-0084",
+        "label": "personnePhysiqueNom",
+        "text": "Roche"
+      },
+      {
+        "doc": "synth-test-2-0084",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0086",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0087",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0088",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0089",
+        "label": "localite",
+        "text": "Troyes"
+      }
+    ],
+    "spurious": [
+      {
+        "doc": "synth-test-2-0011",
+        "label": "adresse",
+        "text": "146 avenue Foch à La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "adresse",
+        "text": "146 avenue Foch, La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0055",
+        "label": "adresse",
+        "text": "174 avenue Foch à Lorient"
+      },
+      {
+        "doc": "synth-test-2-0067",
+        "label": "adresse",
+        "text": "49 avenue Foch à Quimper"
+      }
+    ]
+  },
+  "postprocessed": {
+    "micro": {
+      "tp": 3114,
+      "fp": 4,
+      "fn": 78,
+      "precision": 0.9987,
+      "recall": 0.9756,
+      "f1": 0.987
+    },
+    "per_label": {
+      "adresse": {
+        "tp": 221,
+        "fp": 4,
+        "fn": 4,
+        "precision": 0.9822,
+        "recall": 0.9822,
+        "f1": 0.9822
+      },
+      "dateDeNaissance": {
+        "tp": 122,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "localite": {
+        "tp": 364,
+        "fp": 0,
+        "fn": 41,
+        "precision": 1.0,
+        "recall": 0.8988,
+        "f1": 0.9467
+      },
+      "numeroIdentifiant": {
+        "tp": 66,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "personneMorale": {
+        "tp": 171,
+        "fp": 0,
+        "fn": 33,
+        "precision": 1.0,
+        "recall": 0.8382,
+        "f1": 0.912
+      },
+      "personnePhysiqueNom": {
+        "tp": 651,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "personnePhysiquePrenom": {
+        "tp": 439,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "professionnelAvocat": {
+        "tp": 360,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "professionnelMagistratGreffier": {
+        "tp": 720,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "missed": [
+      {
+        "doc": "synth-test-2-0000",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "adresse",
+        "text": "146 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "adresse",
+        "text": "146 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0030",
+        "label": "personneMorale",
+        "text": "SAS Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0030",
+        "label": "personneMorale",
+        "text": "SAS Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "personneMorale",
+        "text": "SAS Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0036",
+        "label": "personneMorale",
+        "text": "SA Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0036",
+        "label": "personneMorale",
+        "text": "SA Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0038",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0040",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0040",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0041",
+        "label": "personneMorale",
+        "text": "SAS Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0041",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0041",
+        "label": "personneMorale",
+        "text": "SAS Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0042",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0043",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0047",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0048",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0049",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0051",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0054",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0055",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0055",
+        "label": "adresse",
+        "text": "174 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0055",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0055",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0056",
+        "label": "personneMorale",
+        "text": "SARL Studio Graphique"
+      },
+      {
+        "doc": "synth-test-2-0059",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0061",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0061",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0062",
+        "label": "personneMorale",
+        "text": "SA Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0062",
+        "label": "personneMorale",
+        "text": "SA Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0062",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0067",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0067",
+        "label": "localite",
+        "text": "Quimper"
+      },
+      {
+        "doc": "synth-test-2-0067",
+        "label": "adresse",
+        "text": "49 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0068",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0068",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0068",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0069",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0070",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0070",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0071",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0075",
+        "label": "personneMorale",
+        "text": "SARL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0075",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0080",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0080",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0084",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0086",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0087",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0089",
+        "label": "localite",
+        "text": "Troyes"
+      }
+    ],
+    "spurious": [
+      {
+        "doc": "synth-test-2-0011",
+        "label": "adresse",
+        "text": "146 avenue Foch à La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "adresse",
+        "text": "146 avenue Foch, La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0055",
+        "label": "adresse",
+        "text": "174 avenue Foch à Lorient"
+      },
+      {
+        "doc": "synth-test-2-0067",
+        "label": "adresse",
+        "text": "49 avenue Foch à Quimper"
+      }
+    ]
+  },
+  "leaks": {
+    "count": 0,
+    "examples": []
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "model": "camembert",
+  "split": "test",
+  "documents": 90,
+  "seconds_per_doc": 0.502,
+  "raw": {
+    "micro": {
+      "tp": 3125,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9997,
+      "f1": 0.9998
+    },
+    "per_label": {
+      "adresse": {
+        "tp": 225,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "dateDeNaissance": {
+        "tp": 122,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "localite": {
+        "tp": 405,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "personneMorale": {
+        "tp": 204,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "personnePhysiqueNom": {
+        "tp": 650,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9985,
+        "f1": 0.9992
+      },
+      "personnePhysiquePrenom": {
+        "tp": 439,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "professionnelAvocat": {
+        "tp": 360,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "professionnelMagistratGreffier": {
+        "tp": 720,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "missed": [
+      {
+        "doc": "synth-test-2-0057",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      }
+    ],
+    "spurious": []
+  },
+  "postprocessed": {
+    "micro": {
+      "tp": 3192,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "per_label": {
+      "adresse": {
+        "tp": 225,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "dateDeNaissance": {
+        "tp": 122,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "localite": {
+        "tp": 405,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "numeroIdentifiant": {
+        "tp": 66,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "personneMorale": {
+        "tp": 204,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "personnePhysiqueNom": {
+        "tp": 651,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "personnePhysiquePrenom": {
+        "tp": 439,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "professionnelAvocat": {
+        "tp": 360,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "professionnelMagistratGreffier": {
+        "tp": 720,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "missed": [],
+    "spurious": []
+  },
+  "leaks": {
+    "count": 0,
+    "examples": []
+  }
+}

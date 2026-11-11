@@ -1,0 +1,50 @@
+# API de pseudonymisation + MongoDB (résultats, relectures) + ElasticSearch (recherche sur texte pseudonymisé)
+#
+#   docker compose up -d --build
+#   pseudo-ner index spacy --model-dir models/spacy --mongo mongodb://localhost:27017 --es http://localhost:9200 --query "licenciement"
+
+services:
+  api:
+    build: .
+    container_name: pseudo-ner-api
+    ports:
+      - "127.0.0.1:8000:8000"
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    restart: unless-stopped
+
+  mongo:
+    image: mongo:7.0
+    container_name: pseudo-ner-mongo
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    restart: unless-stopped
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.17.0
+    container_name: pseudo-ner-es
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: -Xms512m -Xmx512m
+    ports:
+      - "127.0.0.1:9200:9200"
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:9200/_cluster/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+volumes:
+  mongo-data:
+  es-data:

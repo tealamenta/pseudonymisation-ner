@@ -1,0 +1,65 @@
+{
+  "spacy": {
+    "path": "models/spacy",
+    "sha256": "6add87ee75e26912eb3d439bf4783ebd71d98be474507b3f0b86e60fa9886b73",
+    "recorded_on": "2026-11-10",
+    "micro_f1": 0.9854,
+    "micro_recall": 0.985,
+    "per_label_f1": {
+      "adresse": 1.0,
+      "dateDeNaissance": 1.0,
+      "localite": 0.8889,
+      "numeroIdentifiant": 1.0,
+      "personneMorale": 1.0,
+      "personnePhysiqueNom": 1.0,
+      "personnePhysiquePrenom": 1.0,
+      "professionnelAvocat": 1.0,
+      "professionnelMagistratGreffier": 0.9979
+    },
+    "min_f1": 0.9654,
+    "raw_micro_f1": 0.984955185659411,
+    "leaks": 0
+  },
+  "flair": {
+    "path": "models/flair",
+    "sha256": "11fe99929c8f893229e51f0a9003cf32da2cede3211f26148f1943ab73ddc73c",
+    "recorded_on": "2026-11-10",
+    "micro_f1": 1.0,
+    "micro_recall": 1.0,
+    "per_label_f1": {
+      "adresse": 1.0,
+      "dateDeNaissance": 1.0,
+      "localite": 1.0,
+      "numeroIdentifiant": 1.0,
+      "personneMorale": 1.0,
+      "personnePhysiqueNom": 1.0,
+      "personnePhysiquePrenom": 1.0,
+      "professionnelAvocat": 1.0,
+      "professionnelMagistratGreffier": 1.0
+    },
+    "min_f1": 0.98,
+    "raw_micro_f1": 1.0,
+    "leaks": 0
+  },
+  "camembert": {
+    "path": "models/camembert",
+    "sha256": "23babf6b672f41053e7ccec637a611bd60821d554f1d4005888ca72ecb1ef831",
+    "recorded_on": "2026-11-10",
+    "micro_f1": 1.0,
+    "micro_recall": 1.0,
+    "per_label_f1": {
+      "adresse": 1.0,
+      "dateDeNaissance": 1.0,
+      "localite": 1.0,
+      "numeroIdentifiant": 1.0,
+      "personneMorale": 1.0,
+      "personnePhysiqueNom": 1.0,
+      "personnePhysiquePrenom": 1.0,
+      "professionnelAvocat": 1.0,
+      "professionnelMagistratGreffier": 1.0
+    },
+    "min_f1": 0.98,
+    "raw_micro_f1": 0.9998400255959047,
+    "leaks": 0
+  }
+}

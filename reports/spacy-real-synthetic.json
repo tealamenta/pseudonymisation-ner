@@ -1,0 +1,4430 @@
+{
+  "model": "spacy",
+  "split": "test",
+  "labels": "all",
+  "documents": 90,
+  "seconds_per_doc": 0.015,
+  "raw": {
+    "micro": {
+      "tp": 1932,
+      "fp": 582,
+      "fn": 1194,
+      "precision": 0.7685,
+      "recall": 0.618,
+      "f1": 0.6851
+    },
+    "per_label": {
+      "adresse": {
+        "tp": 196,
+        "fp": 34,
+        "fn": 29,
+        "precision": 0.8522,
+        "recall": 0.8711,
+        "f1": 0.8615
+      },
+      "dateDeNaissance": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 122,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "localite": {
+        "tp": 160,
+        "fp": 41,
+        "fn": 245,
+        "precision": 0.796,
+        "recall": 0.3951,
+        "f1": 0.5281
+      },
+      "personneMorale": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 204,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "personnePhysiqueNom": {
+        "tp": 533,
+        "fp": 241,
+        "fn": 118,
+        "precision": 0.6886,
+        "recall": 0.8187,
+        "f1": 0.7481
+      },
+      "personnePhysiquePrenom": {
+        "tp": 270,
+        "fp": 182,
+        "fn": 169,
+        "precision": 0.5973,
+        "recall": 0.615,
+        "f1": 0.6061
+      },
+      "professionnelAvocat": {
+        "tp": 360,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "professionnelMagistratGreffier": {
+        "tp": 413,
+        "fp": 84,
+        "fn": 307,
+        "precision": 0.831,
+        "recall": 0.5736,
+        "f1": 0.6787
+      }
+    },
+    "missed": [
+      {
+        "doc": "synth-test-2-0000",
+        "label": "professionnelMagistratGreffier",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "dateDeNaissance",
+        "text": "26 novembre 1999"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "professionnelMagistratGreffier",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "professionnelMagistratGreffier",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "localite",
+        "text": "Colmar"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personneMorale",
+        "text": "EURL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "dateDeNaissance",
+        "text": "12 juin 1956"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "professionnelMagistratGreffier",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "professionnelMagistratGreffier",
+        "text": "Océane"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personneMorale",
+        "text": "EURL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personneMorale",
+        "text": "EURL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personneMorale",
+        "text": "EURL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "localite",
+        "text": "Chambéry"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personneMorale",
+        "text": "SAS Studio Graphique"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personneMorale",
+        "text": "SAS Studio Graphique"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Marchand"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Lucas"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Marchand"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personneMorale",
+        "text": "SAS Studio Graphique"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "dateDeNaissance",
+        "text": "17 février 1984"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "professionnelMagistratGreffier",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "professionnelMagistratGreffier",
+        "text": "Lucas"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "dateDeNaissance",
+        "text": "17 janvier 1975"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "Valence"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "localite",
+        "text": "Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "professionnelMagistratGreffier",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "professionnelMagistratGreffier",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "dateDeNaissance",
+        "text": "12 avril 1965"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "dateDeNaissance",
+        "text": "15 septembre 1959"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "professionnelMagistratGreffier",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Agnès"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "localite",
+        "text": "Chambéry"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "dateDeNaissance",
+        "text": "11 septembre 1981"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiqueNom",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "professionnelMagistratGreffier",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiquePrenom",
+        "text": "Florence"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personneMorale",
+        "text": "EURL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiqueNom",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personneMorale",
+        "text": "EURL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "professionnelMagistratGreffier",
+        "text": "Duval"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiqueNom",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "localite",
+        "text": "Quimper"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiqueNom",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personneMorale",
+        "text": "EURL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "dateDeNaissance",
+        "text": "18 novembre 1951"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiquePrenom",
+        "text": "Florence"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "localite",
+        "text": "Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "dateDeNaissance",
+        "text": "5 mars 1983"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "localite",
+        "text": "Chambéry"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "professionnelMagistratGreffier",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "professionnelMagistratGreffier",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "professionnelMagistratGreffier",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "localite",
+        "text": "Quimper"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "dateDeNaissance",
+        "text": "5 janvier 1947"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "professionnelMagistratGreffier",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "localite",
+        "text": "Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "professionnelMagistratGreffier",
+        "text": "Dumont"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "personnePhysiquePrenom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "localite",
+        "text": "Quimper"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "professionnelMagistratGreffier",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "dateDeNaissance",
+        "text": "14 février 1977"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "localite",
+        "text": "Colmar"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "localite",
+        "text": "Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "dateDeNaissance",
+        "text": "15 février 1992"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personneMorale",
+        "text": "SCI Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personneMorale",
+        "text": "SCI Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "adresse",
+        "text": "20 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "localite",
+        "text": "Valence"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personneMorale",
+        "text": "SCI Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "professionnelMagistratGreffier",
+        "text": "Salma"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "professionnelMagistratGreffier",
+        "text": "Mathieu"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "dateDeNaissance",
+        "text": "9 octobre 1958"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "localite",
+        "text": "Chambéry"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "dateDeNaissance",
+        "text": "10 février 1985"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "adresse",
+        "text": "146 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Gauthier"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "professionnelMagistratGreffier",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiquePrenom",
+        "text": "Océane"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "localite",
+        "text": "Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiqueNom",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiqueNom",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "localite",
+        "text": "Colmar"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "professionnelMagistratGreffier",
+        "text": "NOËL"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "dateDeNaissance",
+        "text": "3 octobre 1945"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "professionnelMagistratGreffier",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "dateDeNaissance",
+        "text": "13 mars 1986"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "professionnelMagistratGreffier",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "professionnelMagistratGreffier",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "localite",
+        "text": "Chambéry"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personnePhysiqueNom",
+        "text": "Perez"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "localite",
+        "text": "Valence"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "dateDeNaissance",
+        "text": "23 mai 1949"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiquePrenom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "professionnelMagistratGreffier",
+        "text": "Cédric"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "dateDeNaissance",
+        "text": "7 février 1966"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "professionnelMagistratGreffier",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiquePrenom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "dateDeNaissance",
+        "text": "20 mars 1975"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiquePrenom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      }
+    ],
+    "spurious": [
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personnePhysiquePrenom",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personnePhysiquePrenom",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personnePhysiqueNom",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personnePhysiqueNom",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personnePhysiquePrenom",
+        "text": "Océane"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Marchand"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Lucas"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Marchand"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Lucas"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiqueNom",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiqueNom",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiqueNom",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "professionnelMagistratGreffier",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiquePrenom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "professionnelMagistratGreffier",
+        "text": "Florence"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiqueNom",
+        "text": "Duval"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "professionnelMagistratGreffier",
+        "text": "Florence"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personnePhysiqueNom",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "personnePhysiqueNom",
+        "text": "Dumont"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiqueNom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiqueNom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "adresse",
+        "text": "20 avenue Foch, Valence"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiqueNom",
+        "text": "Mathieu"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiqueNom",
+        "text": "Gauthier"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "adresse",
+        "text": "146 avenue Foch à La"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiqueNom",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiqueNom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiqueNom",
+        "text": "NOËL"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personnePhysiqueNom",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiqueNom",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiqueNom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiqueNom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiqueNom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personnePhysiqueNom",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personnePhysiqueNom",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "professionnelMagistratGreffier",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "professionnelMagistratGreffier",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiqueNom",
+        "text": "Denis"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiqueNom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "adresse",
+        "text": "146 avenue Foch, La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "personnePhysiqueNom",
+        "text": "Marchand"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "personnePhysiquePrenom",
+        "text": "Salma"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "personnePhysiquePrenom",
+        "text": "Salma"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "personnePhysiqueNom",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "professionnelMagistratGreffier",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiqueNom",
+        "text": "MEUNIER"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "personnePhysiqueNom",
+        "text": "Brun"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "adresse",
+        "text": "49 avenue Foch, Avignon"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "personnePhysiqueNom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "personnePhysiquePrenom",
+        "text": "Yasmine"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "personnePhysiquePrenom",
+        "text": "Yasmine"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "BARBIER"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "adresse",
+        "text": "58 avenue Foch, Troyes"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Lucas"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "BARBIER"
+      },
+      {
+        "doc": "synth-test-2-0021",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0021",
+        "label": "personnePhysiqueNom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0021",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0021",
+        "label": "personnePhysiqueNom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0022",
+        "label": "personnePhysiqueNom",
+        "text": "Roger"
+      },
+      {
+        "doc": "synth-test-2-0022",
+        "label": "adresse",
+        "text": "69 avenue Foch, Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personnePhysiquePrenom",
+        "text": "Océane"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "professionnelMagistratGreffier",
+        "text": "Salma"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personnePhysiqueNom",
+        "text": "Dufour"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personnePhysiquePrenom",
+        "text": "Océane"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "professionnelMagistratGreffier",
+        "text": "NOËL"
+      },
+      {
+        "doc": "synth-test-2-0024",
+        "label": "professionnelMagistratGreffier",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0024",
+        "label": "professionnelMagistratGreffier",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0024",
+        "label": "professionnelMagistratGreffier",
+        "text": "JEAN"
+      },
+      {
+        "doc": "synth-test-2-0025",
+        "label": "personnePhysiqueNom",
+        "text": "Mathieu"
+      },
+      {
+        "doc": "synth-test-2-0025",
+        "label": "professionnelMagistratGreffier",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0025",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0025",
+        "label": "adresse",
+        "text": "64 avenue Foch, Valence"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "personnePhysiqueNom",
+        "text": "LOPES"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "professionnelMagistratGreffier",
+        "text": "Salma"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "adresse",
+        "text": "14 avenue Foch, Valence"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "professionnelMagistratGreffier",
+        "text": "Dumas"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personnePhysiqueNom",
+        "text": "Roche"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "professionnelMagistratGreffier",
+        "text": "Roger"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personnePhysiquePrenom",
+        "text": "Roger"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "professionnelMagistratGreffier",
+        "text": "Delphine"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "adresse",
+        "text": "102 avenue Foch, Avignon"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personnePhysiqueNom",
+        "text": "Delphine"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "professionnelMagistratGreffier",
+        "text": "Roger"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "professionnelMagistratGreffier",
+        "text": "Florence"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personnePhysiqueNom",
+        "text": "Delphine"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "professionnelMagistratGreffier",
+        "text": "Delphine"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiqueNom",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiquePrenom",
+        "text": "Florian"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiquePrenom",
+        "text": "Studio"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiquePrenom",
+        "text": "Studio"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiqueNom",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiquePrenom",
+        "text": "Florian"
+      },
+      {
+        "doc": "synth-test-2-0029",
+        "label": "personnePhysiqueNom",
+        "text": "Roche"
+      },
+      {
+        "doc": "synth-test-2-0030",
+        "label": "adresse",
+        "text": "5 août 1983 à"
+      },
+      {
+        "doc": "synth-test-2-0030",
+        "label": "adresse",
+        "text": "93 avenue Foch, Avignon"
+      },
+      {
+        "doc": "synth-test-2-0030",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "personnePhysiqueNom",
+        "text": "Clement"
+      },
+      {
+        "doc": "synth-test-2-0032",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0032",
+        "label": "personnePhysiqueNom",
+        "text": "GAUTHIER"
+      },
+      {
+        "doc": "synth-test-2-0032",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0033",
+        "label": "professionnelMagistratGreffier",
+        "text": "Dufour"
+      },
+      {
+        "doc": "synth-test-2-0033",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0033",
+        "label": "professionnelMagistratGreffier",
+        "text": "Agnès"
+      },
+      {
+        "doc": "synth-test-2-0033",
+        "label": "adresse",
+        "text": "28 août 1964, demeurant 118"
+      },
+      {
+        "doc": "synth-test-2-0033",
+        "label": "personnePhysiqueNom",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0033",
+        "label": "personnePhysiquePrenom",
+        "text": "Justine"
+      },
+      {
+        "doc": "synth-test-2-0034",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0034",
+        "label": "personnePhysiqueNom",
+        "text": "Lopes"
+      },
+      {
+        "doc": "synth-test-2-0034",
+        "label": "adresse",
+        "text": "95 avenue Foch, Troyes"
+      },
+      {
+        "doc": "synth-test-2-0034",
+        "label": "personnePhysiquePrenom",
+        "text": "Océane"
+      },
+      {
+        "doc": "synth-test-2-0034",
+        "label": "professionnelMagistratGreffier",
+        "text": "Agnès"
+      },
+      {
+        "doc": "synth-test-2-0034",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0034",
+        "label": "personnePhysiquePrenom",
+        "text": "Joly"
+      }
+    ]
+  },
+  "postprocessed": {
+    "micro": {
+      "tp": 2075,
+      "fp": 602,
+      "fn": 1117,
+      "precision": 0.7751,
+      "recall": 0.6501,
+      "f1": 0.7071
+    },
+    "per_label": {
+      "adresse": {
+        "tp": 196,
+        "fp": 34,
+        "fn": 29,
+        "precision": 0.8522,
+        "recall": 0.8711,
+        "f1": 0.8615
+      },
+      "dateDeNaissance": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 122,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "localite": {
+        "tp": 160,
+        "fp": 41,
+        "fn": 245,
+        "precision": 0.796,
+        "recall": 0.3951,
+        "f1": 0.5281
+      },
+      "numeroIdentifiant": {
+        "tp": 66,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "personneMorale": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 204,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "personnePhysiqueNom": {
+        "tp": 589,
+        "fp": 250,
+        "fn": 62,
+        "precision": 0.702,
+        "recall": 0.9048,
+        "f1": 0.7906
+      },
+      "personnePhysiquePrenom": {
+        "tp": 288,
+        "fp": 189,
+        "fn": 151,
+        "precision": 0.6038,
+        "recall": 0.656,
+        "f1": 0.6288
+      },
+      "professionnelAvocat": {
+        "tp": 360,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "professionnelMagistratGreffier": {
+        "tp": 416,
+        "fp": 88,
+        "fn": 304,
+        "precision": 0.8254,
+        "recall": 0.5778,
+        "f1": 0.6797
+      }
+    },
+    "missed": [
+      {
+        "doc": "synth-test-2-0000",
+        "label": "professionnelMagistratGreffier",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "dateDeNaissance",
+        "text": "26 novembre 1999"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "professionnelMagistratGreffier",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "professionnelMagistratGreffier",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "localite",
+        "text": "Colmar"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personneMorale",
+        "text": "SAS Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personneMorale",
+        "text": "EURL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "dateDeNaissance",
+        "text": "12 juin 1956"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "professionnelMagistratGreffier",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "professionnelMagistratGreffier",
+        "text": "Océane"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personneMorale",
+        "text": "EURL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personneMorale",
+        "text": "EURL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personneMorale",
+        "text": "EURL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "localite",
+        "text": "Chambéry"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personneMorale",
+        "text": "SAS Studio Graphique"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personneMorale",
+        "text": "SAS Studio Graphique"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Marchand"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Lucas"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Marchand"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personneMorale",
+        "text": "SAS Studio Graphique"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "dateDeNaissance",
+        "text": "17 février 1984"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "professionnelMagistratGreffier",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "professionnelMagistratGreffier",
+        "text": "Lucas"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "dateDeNaissance",
+        "text": "17 janvier 1975"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "Valence"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "localite",
+        "text": "Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "professionnelMagistratGreffier",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "professionnelMagistratGreffier",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "dateDeNaissance",
+        "text": "12 avril 1965"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "dateDeNaissance",
+        "text": "15 septembre 1959"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "professionnelMagistratGreffier",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Agnès"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "professionnelMagistratGreffier",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "localite",
+        "text": "Chambéry"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "dateDeNaissance",
+        "text": "11 septembre 1981"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "professionnelMagistratGreffier",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiquePrenom",
+        "text": "Florence"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personneMorale",
+        "text": "EURL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personneMorale",
+        "text": "EURL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "professionnelMagistratGreffier",
+        "text": "Duval"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiqueNom",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "localite",
+        "text": "Quimper"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personneMorale",
+        "text": "EURL Optique Vision"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "dateDeNaissance",
+        "text": "18 novembre 1951"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiquePrenom",
+        "text": "Florence"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "localite",
+        "text": "Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "dateDeNaissance",
+        "text": "5 mars 1983"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "personneMorale",
+        "text": "SCI Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "localite",
+        "text": "Chambéry"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "professionnelMagistratGreffier",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "professionnelMagistratGreffier",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0007",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "professionnelMagistratGreffier",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "localite",
+        "text": "Quimper"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "dateDeNaissance",
+        "text": "5 janvier 1947"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "professionnelMagistratGreffier",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "localite",
+        "text": "Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personneMorale",
+        "text": "SARL Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "professionnelMagistratGreffier",
+        "text": "Dumont"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "localite",
+        "text": "Quimper"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "professionnelMagistratGreffier",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "dateDeNaissance",
+        "text": "14 février 1977"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "localite",
+        "text": "Colmar"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "localite",
+        "text": "Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "dateDeNaissance",
+        "text": "15 février 1992"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personneMorale",
+        "text": "SCI Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personneMorale",
+        "text": "SCI Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "adresse",
+        "text": "20 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "localite",
+        "text": "Valence"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personneMorale",
+        "text": "SCI Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "professionnelMagistratGreffier",
+        "text": "Salma"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "professionnelMagistratGreffier",
+        "text": "Mathieu"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "dateDeNaissance",
+        "text": "9 octobre 1958"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "localite",
+        "text": "Chambéry"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personneMorale",
+        "text": "SAS Pépinières du Sud"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "dateDeNaissance",
+        "text": "10 février 1985"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiqueNom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "adresse",
+        "text": "146 avenue Foch"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Gauthier"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "professionnelMagistratGreffier",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "localite",
+        "text": "Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "professionnelMagistratGreffier",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "localite",
+        "text": "Colmar"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "localite",
+        "text": "La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "professionnelMagistratGreffier",
+        "text": "NOËL"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "dateDeNaissance",
+        "text": "3 octobre 1945"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "professionnelMagistratGreffier",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "dateDeNaissance",
+        "text": "13 mars 1986"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "professionnelMagistratGreffier",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "professionnelMagistratGreffier",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "localite",
+        "text": "Chambéry"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "localite",
+        "text": "Valence"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personneMorale",
+        "text": "SA Fret Express"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "dateDeNaissance",
+        "text": "23 mai 1949"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "professionnelMagistratGreffier",
+        "text": "Cédric"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "localite",
+        "text": "Avignon"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "dateDeNaissance",
+        "text": "7 février 1966"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "professionnelMagistratGreffier",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiquePrenom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "dateDeNaissance",
+        "text": "20 mars 1975"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiquePrenom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "localite",
+        "text": "Troyes"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "professionnelMagistratGreffier",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "professionnelMagistratGreffier",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "dateDeNaissance",
+        "text": "2 novembre 1996"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "localite",
+        "text": "Chambéry"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "professionnelMagistratGreffier",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personneMorale",
+        "text": "SA Chauffage Rapide"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "professionnelMagistratGreffier",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "professionnelMagistratGreffier",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personneMorale",
+        "text": "EURL Studio Graphique"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      }
+    ],
+    "spurious": [
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personnePhysiquePrenom",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personnePhysiquePrenom",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0000",
+        "label": "personnePhysiqueNom",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personnePhysiqueNom",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0001",
+        "label": "personnePhysiquePrenom",
+        "text": "Océane"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Lucas"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Marchand"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiqueNom",
+        "text": "Marchand"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0002",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Lucas"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Joly"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0003",
+        "label": "personnePhysiqueNom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0004",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiqueNom",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiquePrenom",
+        "text": "Agnès"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiqueNom",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0005",
+        "label": "personnePhysiqueNom",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "professionnelMagistratGreffier",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiquePrenom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "professionnelMagistratGreffier",
+        "text": "Florence"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "personnePhysiqueNom",
+        "text": "Duval"
+      },
+      {
+        "doc": "synth-test-2-0006",
+        "label": "professionnelMagistratGreffier",
+        "text": "Florence"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personnePhysiqueNom",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0008",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0009",
+        "label": "personnePhysiqueNom",
+        "text": "Dumont"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiqueNom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiqueNom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiqueNom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "adresse",
+        "text": "20 avenue Foch, Valence"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "personnePhysiqueNom",
+        "text": "Mathieu"
+      },
+      {
+        "doc": "synth-test-2-0010",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiqueNom",
+        "text": "Gauthier"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "professionnelMagistratGreffier",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "adresse",
+        "text": "146 avenue Foch à La"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiqueNom",
+        "text": "Roy"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0011",
+        "label": "personnePhysiquePrenom",
+        "text": "Jean"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiqueNom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiqueNom",
+        "text": "NOËL"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0012",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personnePhysiqueNom",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0013",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiqueNom",
+        "text": "Clément"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiqueNom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiqueNom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0014",
+        "label": "personnePhysiqueNom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personnePhysiqueNom",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0015",
+        "label": "personnePhysiqueNom",
+        "text": "Barbier"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "professionnelMagistratGreffier",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "professionnelMagistratGreffier",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiqueNom",
+        "text": "Denis"
+      },
+      {
+        "doc": "synth-test-2-0016",
+        "label": "personnePhysiqueNom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "adresse",
+        "text": "146 avenue Foch, La Rochelle"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "personnePhysiqueNom",
+        "text": "Marchand"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "personnePhysiquePrenom",
+        "text": "Salma"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "personnePhysiquePrenom",
+        "text": "Salma"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "personnePhysiqueNom",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0017",
+        "label": "professionnelMagistratGreffier",
+        "text": "Claire"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiqueNom",
+        "text": "MEUNIER"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiqueNom",
+        "text": "Meunier"
+      },
+      {
+        "doc": "synth-test-2-0018",
+        "label": "personnePhysiquePrenom",
+        "text": "Xavier"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "personnePhysiqueNom",
+        "text": "Brun"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "adresse",
+        "text": "49 avenue Foch, Avignon"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "personnePhysiqueNom",
+        "text": "Damien"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "personnePhysiquePrenom",
+        "text": "Yasmine"
+      },
+      {
+        "doc": "synth-test-2-0019",
+        "label": "personnePhysiquePrenom",
+        "text": "Yasmine"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "BARBIER"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "Fontana"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "adresse",
+        "text": "58 avenue Foch, Troyes"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Lucas"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "DUMAS"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0020",
+        "label": "personnePhysiqueNom",
+        "text": "BARBIER"
+      },
+      {
+        "doc": "synth-test-2-0021",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0021",
+        "label": "personnePhysiqueNom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0021",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0021",
+        "label": "personnePhysiqueNom",
+        "text": "Mehdi"
+      },
+      {
+        "doc": "synth-test-2-0022",
+        "label": "personnePhysiqueNom",
+        "text": "Roger"
+      },
+      {
+        "doc": "synth-test-2-0022",
+        "label": "adresse",
+        "text": "69 avenue Foch, Mulhouse"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personnePhysiquePrenom",
+        "text": "Océane"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "professionnelMagistratGreffier",
+        "text": "Salma"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personnePhysiqueNom",
+        "text": "Dufour"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personnePhysiquePrenom",
+        "text": "Kevin"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "personnePhysiquePrenom",
+        "text": "Océane"
+      },
+      {
+        "doc": "synth-test-2-0023",
+        "label": "professionnelMagistratGreffier",
+        "text": "NOËL"
+      },
+      {
+        "doc": "synth-test-2-0024",
+        "label": "professionnelMagistratGreffier",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0024",
+        "label": "professionnelMagistratGreffier",
+        "text": "Adrien"
+      },
+      {
+        "doc": "synth-test-2-0024",
+        "label": "professionnelMagistratGreffier",
+        "text": "JEAN"
+      },
+      {
+        "doc": "synth-test-2-0025",
+        "label": "personnePhysiqueNom",
+        "text": "Mathieu"
+      },
+      {
+        "doc": "synth-test-2-0025",
+        "label": "professionnelMagistratGreffier",
+        "text": "Manon"
+      },
+      {
+        "doc": "synth-test-2-0025",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0025",
+        "label": "adresse",
+        "text": "64 avenue Foch, Valence"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "personnePhysiqueNom",
+        "text": "LOPES"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "professionnelMagistratGreffier",
+        "text": "Salma"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "adresse",
+        "text": "14 avenue Foch, Valence"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "professionnelMagistratGreffier",
+        "text": "Dumas"
+      },
+      {
+        "doc": "synth-test-2-0026",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personnePhysiqueNom",
+        "text": "Roche"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "professionnelMagistratGreffier",
+        "text": "Roger"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personnePhysiquePrenom",
+        "text": "Roger"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "professionnelMagistratGreffier",
+        "text": "Delphine"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "adresse",
+        "text": "102 avenue Foch, Avignon"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personnePhysiqueNom",
+        "text": "Delphine"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "professionnelMagistratGreffier",
+        "text": "Roger"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "professionnelMagistratGreffier",
+        "text": "Florence"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "personnePhysiqueNom",
+        "text": "Delphine"
+      },
+      {
+        "doc": "synth-test-2-0027",
+        "label": "professionnelMagistratGreffier",
+        "text": "Delphine"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiqueNom",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiqueNom",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiquePrenom",
+        "text": "Florian"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiquePrenom",
+        "text": "Studio"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiquePrenom",
+        "text": "Studio"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiquePrenom",
+        "text": "Studio"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiqueNom",
+        "text": "Moulin"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiqueNom",
+        "text": "Graphique"
+      },
+      {
+        "doc": "synth-test-2-0028",
+        "label": "personnePhysiquePrenom",
+        "text": "Florian"
+      },
+      {
+        "doc": "synth-test-2-0029",
+        "label": "personnePhysiquePrenom",
+        "text": "Cédric"
+      },
+      {
+        "doc": "synth-test-2-0029",
+        "label": "personnePhysiqueNom",
+        "text": "Roche"
+      },
+      {
+        "doc": "synth-test-2-0030",
+        "label": "adresse",
+        "text": "5 août 1983 à"
+      },
+      {
+        "doc": "synth-test-2-0030",
+        "label": "adresse",
+        "text": "93 avenue Foch, Avignon"
+      },
+      {
+        "doc": "synth-test-2-0030",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "localite",
+        "text": "Bayonne"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "professionnelMagistratGreffier",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "personnePhysiqueNom",
+        "text": "Clement"
+      },
+      {
+        "doc": "synth-test-2-0031",
+        "label": "personnePhysiqueNom",
+        "text": "Bastien"
+      },
+      {
+        "doc": "synth-test-2-0032",
+        "label": "personnePhysiquePrenom",
+        "text": "Rayan"
+      },
+      {
+        "doc": "synth-test-2-0032",
+        "label": "personnePhysiqueNom",
+        "text": "GAUTHIER"
+      },
+      {
+        "doc": "synth-test-2-0032",
+        "label": "personnePhysiqueNom",
+        "text": "Étienne"
+      },
+      {
+        "doc": "synth-test-2-0033",
+        "label": "professionnelMagistratGreffier",
+        "text": "Dufour"
+      },
+      {
+        "doc": "synth-test-2-0033",
+        "label": "localite",
+        "text": "Lorient"
+      },
+      {
+        "doc": "synth-test-2-0033",
+        "label": "professionnelMagistratGreffier",
+        "text": "Agnès"
+      }
+    ]
+  },
+  "leaks": {
+    "count": 237,
+    "examples": [
+      {
+        "doc": 0,
+        "label": "dateDeNaissance",
+        "text": "26 novembre 1999"
+      },
+      {
+        "doc": 1,
+        "label": "dateDeNaissance",
+        "text": "12 juin 1956"
+      },
+      {
+        "doc": 2,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 2,
+        "label": "dateDeNaissance",
+        "text": "17 février 1984"
+      },
+      {
+        "doc": 3,
+        "label": "dateDeNaissance",
+        "text": "17 janvier 1975"
+      },
+      {
+        "doc": 4,
+        "label": "dateDeNaissance",
+        "text": "15 septembre 1959"
+      },
+      {
+        "doc": 4,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 4,
+        "label": "dateDeNaissance",
+        "text": "12 avril 1965"
+      },
+      {
+        "doc": 5,
+        "label": "dateDeNaissance",
+        "text": "11 septembre 1981"
+      },
+      {
+        "doc": 6,
+        "label": "personnePhysiquePrenom",
+        "text": "Florence"
+      },
+      {
+        "doc": 6,
+        "label": "personnePhysiqueNom",
+        "text": "Fontana"
+      },
+      {
+        "doc": 6,
+        "label": "dateDeNaissance",
+        "text": "18 novembre 1951"
+      },
+      {
+        "doc": 6,
+        "label": "personnePhysiquePrenom",
+        "text": "Florence"
+      },
+      {
+        "doc": 7,
+        "label": "dateDeNaissance",
+        "text": "5 mars 1983"
+      },
+      {
+        "doc": 8,
+        "label": "dateDeNaissance",
+        "text": "5 janvier 1947"
+      },
+      {
+        "doc": 9,
+        "label": "dateDeNaissance",
+        "text": "14 février 1977"
+      },
+      {
+        "doc": 9,
+        "label": "dateDeNaissance",
+        "text": "15 février 1992"
+      },
+      {
+        "doc": 10,
+        "label": "dateDeNaissance",
+        "text": "9 octobre 1958"
+      },
+      {
+        "doc": 11,
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": 11,
+        "label": "dateDeNaissance",
+        "text": "10 février 1985"
+      },
+      {
+        "doc": 11,
+        "label": "personnePhysiquePrenom",
+        "text": "Manon"
+      },
+      {
+        "doc": 12,
+        "label": "dateDeNaissance",
+        "text": "13 mars 1986"
+      },
+      {
+        "doc": 12,
+        "label": "dateDeNaissance",
+        "text": "3 octobre 1945"
+      },
+      {
+        "doc": 13,
+        "label": "dateDeNaissance",
+        "text": "23 mai 1949"
+      },
+      {
+        "doc": 14,
+        "label": "dateDeNaissance",
+        "text": "20 mars 1975"
+      },
+      {
+        "doc": 14,
+        "label": "dateDeNaissance",
+        "text": "7 février 1966"
+      },
+      {
+        "doc": 15,
+        "label": "dateDeNaissance",
+        "text": "2 novembre 1996"
+      },
+      {
+        "doc": 16,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 16,
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": 16,
+        "label": "dateDeNaissance",
+        "text": "16 juillet 1983"
+      },
+      {
+        "doc": 16,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 16,
+        "label": "personnePhysiquePrenom",
+        "text": "Damien"
+      },
+      {
+        "doc": 17,
+        "label": "personnePhysiquePrenom",
+        "text": "Claire"
+      },
+      {
+        "doc": 17,
+        "label": "dateDeNaissance",
+        "text": "7 mars 1965"
+      },
+      {
+        "doc": 17,
+        "label": "dateDeNaissance",
+        "text": "8 juillet 1987"
+      },
+      {
+        "doc": 17,
+        "label": "personnePhysiquePrenom",
+        "text": "Claire"
+      },
+      {
+        "doc": 18,
+        "label": "dateDeNaissance",
+        "text": "5 mai 1968"
+      },
+      {
+        "doc": 19,
+        "label": "dateDeNaissance",
+        "text": "8 avril 1998"
+      },
+      {
+        "doc": 20,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 20,
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": 20,
+        "label": "dateDeNaissance",
+        "text": "1 juillet 1952"
+      },
+      {
+        "doc": 20,
+        "label": "personnePhysiquePrenom",
+        "text": "Brigitte"
+      },
+      {
+        "doc": 20,
+        "label": "personnePhysiqueNom",
+        "text": "Fontana"
+      },
+      {
+        "doc": 20,
+        "label": "dateDeNaissance",
+        "text": "20 novembre 1977"
+      },
+      {
+        "doc": 20,
+        "label": "personnePhysiquePrenom",
+        "text": "Bastien"
+      },
+      {
+        "doc": 20,
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": 20,
+        "label": "personnePhysiqueNom",
+        "text": "DUMAS"
+      },
+      {
+        "doc": 21,
+        "label": "dateDeNaissance",
+        "text": "12 décembre 1979"
+      },
+      {
+        "doc": 21,
+        "label": "dateDeNaissance",
+        "text": "14 mars 1970"
+      },
+      {
+        "doc": 22,
+        "label": "dateDeNaissance",
+        "text": "9 mars 1990"
+      }
+    ]
+  }
+}

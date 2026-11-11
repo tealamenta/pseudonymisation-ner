@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 import pytest
@@ -106,6 +107,7 @@ def test_mongo_store_with_mongomock():
     store.save({"idDocument": "a", "check_needed": True, "text": "secret"})
     store.save({"idDocument": "a", "check_needed": False, "text": "secret2"})  # remplace
     assert store.get("a")["text"] == "secret2"
+    assert datetime.fromisoformat(store.get("a")["saved_at"]).utcoffset() == timezone.utc.utcoffset(None)
     assert store.pending_review() == []
     store.save({"idDocument": "b", "check_needed": True, "text": "t"})
     pending = store.pending_review()
@@ -129,7 +131,7 @@ def test_elastic_index_calls(monkeypatch):
         indices = FakeIndices()
 
         def index(self, index, id, document, refresh):
-            calls.append(("index", id, document["text"]))
+            calls.append(("index", id, document["text"], document["indexed_at"]))
 
         def search(self, index, size, query):
             calls.append(("search", list(query)[0]))
@@ -137,6 +139,7 @@ def test_elastic_index_calls(monkeypatch):
 
     es = ElasticIndex(FakeEs())
     es.index("x", "texte pseudonymisé", {"chambre": "sociale"})
+    assert datetime.fromisoformat(calls[1][3]).utcoffset() == timezone.utc.utcoffset(None)
     assert es.search("texte")[0]["idDocument"] == "x"
     assert es.similar("x")[0]["score"] == 1.5
     assert [c[0] for c in calls] == ["create", "index", "search", "search"]

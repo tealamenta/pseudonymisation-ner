@@ -68,7 +68,7 @@ class MongoStore:
         self.col.create_index("check_needed")
 
     def save(self, record: dict[str, Any]) -> str:
-        record = {**record, "saved_at": dt.datetime.now(dt.UTC).isoformat()}
+        record = {**record, "saved_at": dt.datetime.now(dt.timezone.utc).isoformat()}
         self.col.replace_one({"idDocument": record["idDocument"]}, record, upsert=True)
         return str(record["idDocument"])
 
@@ -92,7 +92,7 @@ class ElasticIndex:
             self.es.indices.create(index=index, **MAPPING)
 
     def index(self, id_document: str, text: str, meta: dict[str, Any]) -> None:
-        body = {"idDocument": id_document, "text": text, "indexed_at": dt.datetime.now(dt.UTC).isoformat(), **meta}
+        body = {"idDocument": id_document, "text": text, "indexed_at": dt.datetime.now(dt.timezone.utc).isoformat(), **meta}
         self.es.index(index=self.name, id=id_document, document=body, refresh="wait_for")
 
     def search(self, query: str, size: int = 10) -> list[dict[str, Any]]:
